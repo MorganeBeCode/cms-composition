@@ -19,15 +19,33 @@
 
 <header>
 
-<ul>
-<li><img src="" alt=""></li>
-<li>MAGASIN</li>
-<li>ARCHITECTE D'INTERIEUR</li>
-<li>A PROPOS</li>
-<li>BLOG</li>
-<li>CONTACT</li>
-<li>Wishlist <span></span></li>
-</ul>
+
+    <div class="container">
+        <div class = "logo col-lg-3">
+            <ul>
+            <li> <a href = "#"><img class = "logo-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/logo-small.svg" alt="home"></a></li>
+                <li class="title-mp"> MPOSITION</li>
+            </ul>
+        </div>
+        <nav class = "menu col-lg-7">
+            <ul>
+                <li><a href = "#"><img class = "home-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/home-minimal.svg" alt="home"></a></li>
+                <li><a href = "#">MAGASIN</a></li>
+                <li><a href = "#">ARCHITECTE D'INTERIEUR</a></li>
+                <li><a href = "#">A PROPOS</a></li>
+                <li><a href = "#">BLOG</a></li>
+                <li><a href = "#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <a href = "#" class = "col-lg-2">
+            <div class="wishlist">
+                <ul class="col-lg-12">
+                    <li>Wishlist <img class = "bullet-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/bullet-list.svg" alt="home"></li>
+                </ul>
+             </div>
+        </a>
+    </div>
+
 
 </header>
 
