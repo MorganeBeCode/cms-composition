@@ -1,0 +1,23 @@
+{
+  "name": "cms-composition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/SCSS -o assets/CSS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rflowturing/cms-composition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rflowturing/cms-composition/issues"
+  },
+  "homepage": "https://github.com/rflowturing/cms-composition#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
