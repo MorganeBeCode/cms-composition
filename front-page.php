@@ -11,8 +11,4 @@
 
 
 
-<div class=container>
-    <p>Yoooooooooooooooo</p>
-    </div>
-
     <?php get_footer();?>
