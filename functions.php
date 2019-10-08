@@ -25,6 +25,13 @@ add_theme_support( 'post-thumbnails' );
 // Ajouter automatiquement le titre du site dans l'en-tête du site
 add_theme_support( 'title-tag' );
 
+function nom_scripts() {
+  wp_enqueue_style('boostrap',get_template_directory_uri().'/boostrap.css',array(),'1.0.0','all');
+  wp_enqueue_style('theme_style',get_template_directory_uri().'/style.css',array("boostrap"),'1.0.0','all');
+}
+  
+  add_action('wp_enqueue_scripts','nom_scripts');
+
 // Enable the option show in rest
 add_filter( 'acf/rest_api/field_settings/show_in_rest', '__return_true' );
 // Enable the option edit in rest
