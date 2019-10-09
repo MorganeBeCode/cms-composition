@@ -1,6 +1,6 @@
 /********** HEADER STYLE**********/
 
-.container {
+.header {
     margin-top: 3%;
     display: flex;
     justify-content: space-between;
@@ -96,4 +96,110 @@
         }
 
     }
+}
+
+/*************FOOTER STYLE **************/
+
+.footer.container {
+
+
+    margin: auto;
+    padding: 0px 30px;
+    display: flex;
+    height: 100%;
+
+    .adress {
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 400;
+
+        p {
+            margin-bottom: 0px;
+        }
+    }
+
+    .map {
+
+
+        h5 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding-bottom: 15px;
+            margin-top: 0px;
+            margin-bottom: 3rem;
+        }
+
+        a {
+            color: black;
+        }
+
+        .google-map {
+            font-weight: 700;
+            font-size: 18px;
+            padding-top: 20px;
+
+            img {
+                margin-left: 15px;
+            }
+
+        }
+    }
+
+    .adress {
+
+        line-height: 2;
+
+        p {
+            a {
+                color: black;
+            }
+
+            img {
+                margin-right: 10px;
+
+            }
+        }
+    }
+
+    .sm-icons {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .justIcons {
+            display: flex;
+            justify-content: flex-end;
+
+
+            span {
+                width: 53px;
+                height: 53px;
+                margin-right: 13px;
+                border: 2px solid #d9d9d9;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+        }
+
+        p {
+            padding-top: 28px;
+            padding-left: 15px;
+
+            a {
+                color: black;
+                font-size: 11px;
+                font-weight: 400px;
+
+            }
+
+        }
+
+    }
+
 }

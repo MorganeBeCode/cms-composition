@@ -1,24 +1,24 @@
 /********** HEADER STYLE**********/
-.container {
+.header {
   margin-top: 3%;
   display: flex;
   justify-content: space-between; }
-  .container .menu ul li:first-child {
+  .header .menu ul li:first-child {
     border-bottom: 4px solid black; }
-    .container .menu ul li:first-child .home-icon {
+    .header .menu ul li:first-child .home-icon {
       width: 15px;
       margin-bottom: 5px;
       padding-bottom: 10px;
       margin-top: 10px; }
-  .container a {
+  .header a {
     color: black;
     font-weight: bolder; }
-  .container li {
+  .header li {
     display: inline;
     list-style-type: none;
     text-align: center;
     margin-right: 3%; }
-  .container .logo ul {
+  .header .logo ul {
     width: 100%;
     display: flex;
     align-items: center;
@@ -26,28 +26,85 @@
     font-size: 20px;
     font-weight: bold;
     margin-left: -40px; }
-    .container .logo ul .title-mp {
+    .header .logo ul .title-mp {
       margin-left: -5px; }
-  .container .wishlist {
+  .header .wishlist {
     background-color: black;
     color: white;
     display: flex;
     height: 100%; }
-    .container .wishlist ul {
+    .header .wishlist ul {
       display: flex;
       justify-content: center;
       margin: auto 0; }
-    .container .wishlist .bullet-icon {
+    .header .wishlist .bullet-icon {
       width: 20px;
       margin-left: 10px; }
-  .container .menu {
+  .header .menu {
     display: flex;
     align-items: center;
     font-size: 14px;
     font-weight: bold;
     min-height: 100%; }
-    .container .menu ul {
+    .header .menu ul {
       width: 100%;
       margin: -5px; }
-      .container .menu ul li a:hover {
+      .header .menu ul li a:hover {
         text-decoration: none; }
+
+/*************FOOTER STYLE **************/
+.footer.container {
+  margin: auto;
+  padding: 0px 30px;
+  display: flex;
+  height: 100%; }
+  .footer.container .adress {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400; }
+    .footer.container .adress p {
+      margin-bottom: 0px; }
+  .footer.container .map h5 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 3rem; }
+  .footer.container .map a {
+    color: black; }
+  .footer.container .map .google-map {
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 20px; }
+    .footer.container .map .google-map img {
+      margin-left: 15px; }
+  .footer.container .adress {
+    line-height: 2; }
+    .footer.container .adress p a {
+      color: black; }
+    .footer.container .adress p img {
+      margin-right: 10px; }
+  .footer.container .sm-icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .footer.container .sm-icons .justIcons {
+      display: flex;
+      justify-content: flex-end; }
+      .footer.container .sm-icons .justIcons span {
+        width: 53px;
+        height: 53px;
+        margin-right: 13px;
+        border: 2px solid #d9d9d9;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+    .footer.container .sm-icons p {
+      padding-top: 28px;
+      padding-left: 15px; }
+      .footer.container .sm-icons p a {
+        color: black;
+        font-size: 11px;
+        font-weight: 400px; }

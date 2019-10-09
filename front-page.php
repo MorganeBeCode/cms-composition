@@ -10,5 +10,4 @@
 <h2 class = "groupe"><?php echo get_field('bandeau_survol_g_titre')?></h2>
 
 
-
-    <?php get_footer();?>
+ <?php get_footer();?>

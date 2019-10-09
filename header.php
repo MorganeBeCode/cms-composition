@@ -20,7 +20,7 @@
 <header>
 
 
-    <div class="container">
+    <div class="header container">
         <div class = "logo col-lg-3">
             <ul>
             <li> <a href = "#"><img class = "logo-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/logo-small.svg" alt="home"></a></li>
