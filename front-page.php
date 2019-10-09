@@ -1,6 +1,8 @@
 
 <?php get_header();?>
 
+
+
 <img class="image" src="<?php echo get_field('bandeau_image_g')['sizes']['wpm_taille_1']; ?>">
 <img class="image" src="<?php echo get_field('bandeau_image_d')['sizes']['home_top']; ?>">
 

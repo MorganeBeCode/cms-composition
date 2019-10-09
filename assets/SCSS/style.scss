@@ -13,24 +13,9 @@ Version: 1.0
     display: flex;
     justify-content: space-between;
 
-    .menu {
-        ul {
-            li:first-child {
-                border-bottom: 4px solid black;
-
-                .home-icon {
-                    width: 15px;
-                    margin-bottom: 5px;
-                    padding-bottom: 10px;
-                    margin-top: 10px;
-                }
-            }
-        }
-    }
-
     a {
         color: black;
-        font-weight: bolder
+        font-weight: bolder;
     }
 
     li {
@@ -81,27 +66,50 @@ Version: 1.0
         }
     }
 
-    .menu {
+
+
+    .custom-menu-class {
         display: flex;
         align-items: center;
         font-size: 14px;
         font-weight: bold;
         min-height: 100%;
+        text-transform: uppercase;
 
 
-        ul {
+        .menu {
             width: 100%;
             margin: -5px;
 
             li {
+
+                .home {
+
+                    a {
+
+                        font-size: 50px;
+                    }
+
+
+                }
+
                 a:hover {
                     text-decoration: none;
                 }
+
             }
 
         }
 
     }
+
+    .home-icon {
+        width: 15px;
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
 }
 
 /*************FOOTER STYLE **************/

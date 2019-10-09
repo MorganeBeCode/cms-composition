@@ -10,13 +10,6 @@ Version: 1.0
   margin-top: 3%;
   display: flex;
   justify-content: space-between; }
-  .header .menu ul li:first-child {
-    border-bottom: 4px solid black; }
-    .header .menu ul li:first-child .home-icon {
-      width: 15px;
-      margin-bottom: 5px;
-      padding-bottom: 10px;
-      margin-top: 10px; }
   .header a {
     color: black;
     font-weight: bolder; }
@@ -47,17 +40,25 @@ Version: 1.0
     .header .wishlist .bullet-icon {
       width: 20px;
       margin-left: 10px; }
-  .header .menu {
+  .header .custom-menu-class {
     display: flex;
     align-items: center;
     font-size: 14px;
     font-weight: bold;
-    min-height: 100%; }
-    .header .menu ul {
+    min-height: 100%;
+    text-transform: uppercase; }
+    .header .custom-menu-class .menu {
       width: 100%;
       margin: -5px; }
-      .header .menu ul li a:hover {
+      .header .custom-menu-class .menu li .home a {
+        font-size: 50px; }
+      .header .custom-menu-class .menu li a:hover {
         text-decoration: none; }
+  .header .home-icon {
+    width: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    margin-top: 10px; }
 
 /*************FOOTER STYLE **************/
 .footer.container {

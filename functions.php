@@ -38,6 +38,18 @@ function wpa_90820() {
   
   add_action('wp_enqueue_scripts', 'wpa_90820');
 
+
+//Ajouter custome menu
+  function wpb_custom_new_menu() {
+    register_nav_menus(
+      array(
+        'my-custom-menu' => __( 'My Custom Menu' ),
+        'extra-menu' => __( 'Extra Menu' )
+      )
+    );
+  }
+  add_action( 'init', 'wpb_custom_new_menu' );
+
 // Enable the option show in rest
 add_filter( 'acf/rest_api/field_settings/show_in_rest', '__return_true' );
 // Enable the option edit in rest
