@@ -1,14 +1,5 @@
 <?php
-function register_theme_menus() {
-    register_nav_menus( 
-      array(
-        'menu-header-1' => __( 'Emplacement Principal' ),
-        'menu-footer-1' => __( 'Emplacement Pied de page 1' ),
-      )
-    );
-  };
-  
-add_action( 'init', 'register_theme_menus' );
+
   
 add_image_size( 'wpm_taille_1', 1500, 1250, true ); 
 
@@ -49,6 +40,14 @@ function wpa_90820() {
     );
   }
   add_action( 'init', 'wpb_custom_new_menu' );
+
+
+  ////////////////////////
+function wmpudev_enqueue_icon_stylesheet() {
+    wp_register_style( 'fontawesome', 'http:////maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
+    wp_enqueue_style( 'fontawesome');
+}
+add_action( 'wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet' );
 
 // Enable the option show in rest
 add_filter( 'acf/rest_api/field_settings/show_in_rest', '__return_true' );

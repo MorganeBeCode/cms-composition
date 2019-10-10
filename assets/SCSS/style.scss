@@ -18,6 +18,8 @@ Version: 1.0
         font-weight: bolder;
     }
 
+
+
     li {
         display: inline;
         list-style-type: none;
@@ -81,36 +83,39 @@ Version: 1.0
             width: 100%;
             margin: -5px;
 
-            li {
+            .home {
 
-                .home {
+                a {
+                    border-bottom: 5px solid black;
+                    padding-bottom: 5px;
 
-                    a {
-
-                        font-size: 50px;
+                    img {
+                        margin-bottom: 5px;
+                        padding-bottom: 3px;
                     }
 
-
                 }
+            }
 
-                a:hover {
-                    text-decoration: none;
-                }
 
+            a:hover {
+                text-decoration: none;
             }
 
         }
 
     }
 
-    .home-icon {
-        width: 15px;
-        margin-bottom: 5px;
-        padding-bottom: 10px;
-        margin-top: 10px;
-    }
-
 }
+
+.home-icon {
+    width: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
 
 /*************FOOTER STYLE **************/
 

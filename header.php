@@ -28,28 +28,12 @@
             </ul>
         </div>
         
-        
-        <!-- <a href = "#"><img class = "home-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/home-minimal.svg" alt="home"></a>    -->
-        
-
-
          <?php
-wp_nav_menu( array( 
-    'container' => 'nav',
-    'container_class' => 'custom-menu-class col-lg-7' ) ); 
-?>
-        <!-- <nav class = "menu col-lg-7">
-            <ul>
-                <li><a href = "#"><img class = "home-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/home-minimal.svg" alt="home"></a></li>
-                <li><a href = "#">MAGASIN</a></li>
-                <li id="menu-item-87" class="architecture menu-item menu-item-type-post_type menu-item-object-page menu-item-87">
-                    <a href="http://localhost/wordpress/architecture-dinterieur/">ARCHITECTURE D'INTERIEUR</a>
-                </li>
-                <li><a href = "#">A PROPOS</a></li>
-                <li><a href = "#">BLOG</a></li>
-                <li><a href = " http://localhost/wordpress/contact/">CONTACT</a></li>
-            </ul>
-        </nav> -->
+             wp_nav_menu( array( 
+                'container' => 'nav',
+                'container_class' => 'custom-menu-class col-lg-7' ) ); 
+         ?>
+      
         <a href = "#" class = "col-lg-2">
             <div class="wishlist">
                 <ul class="col-lg-12">
