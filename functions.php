@@ -18,11 +18,11 @@ add_theme_support( 'title-tag' );
 
 
 
-//add 
-// function prefix_add_archi_styles() {
-//   wp_enqueue_style( 'archi-dinterieur-style', get_template_directory_uri() . '/assets/CSS/archi-dinterieur-style.css' );
-//   };
-//   add_action( 'wp_enqueue_scripts', 'prefix_add_archi_styles' );
+
+function prefix_add_archi_styles() {
+  wp_enqueue_style( 'archi-dinterieur-style', get_template_directory_uri() . '/assets/CSS/archi-dinterieur-style.css' );
+  };
+  add_action( 'wp_enqueue_scripts', 'prefix_add_archi_styles' );
 
 
 //add CSS to Footer
