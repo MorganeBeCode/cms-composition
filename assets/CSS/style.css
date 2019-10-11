@@ -59,12 +59,6 @@ Version: 1.0
       .header .custom-menu-class .menu a:hover {
         text-decoration: none; }
 
-.home-icon {
-  width: 15px;
-  margin-bottom: 5px;
-  padding-bottom: 10px;
-  margin-top: 10px; }
-
 /*************FOOTER STYLE **************/
 .footer.container {
   margin: auto;
