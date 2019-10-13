@@ -1,10 +1,11 @@
 <?php
+
 /**
  * Template Name: Contact
  */
 
- ?>
+?>
 
 <?php get_header(); ?>
-
-<?php get_footer();?>
+<p>this is just a test</p>
+<?php get_footer(); ?>
