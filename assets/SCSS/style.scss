@@ -235,6 +235,7 @@ Version: 1.0
 
         .image-g {
             width: 100%;
+            z-index: 1;
 
         }
 
@@ -257,13 +258,14 @@ Version: 1.0
     position: absolute;
     text-decoration: none;
     color: black;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(221, 5, 5);
     width: 70%;
     height: 150px;
     left: 25%;
     top: calc(100% - 79px);
     box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
     transition: height 0.5s ease-in-out;
+    z-index: 2;
 }
 
 .survol-g:hover {
@@ -296,6 +298,7 @@ Version: 1.0
     top: calc(100% - 79px);
     box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
     transition: height 0.5s ease-in-out;
+
 }
 
 .survol-d:hover {
@@ -358,7 +361,7 @@ Version: 1.0
 }
 
 .titre {
-    margin-top: 8%;
+    margin-top: 10%;
     margin-left: 10%;
     transition: opacity 0.5s ease-in-out;
     font-size: 24px;
