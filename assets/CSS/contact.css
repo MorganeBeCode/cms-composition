@@ -1,6 +1,10 @@
 body #contact-header {
   background-color: black;
   height: 15rem; }
+  body #contact-header .header .custom-menu-class .menu .home a {
+    border-bottom: 0px solid black; }
+    body #contact-header .header .custom-menu-class .menu .home a img {
+      width: 18%; }
   body #contact-header .header {
     width: 75%;
     height: 95%;
@@ -12,6 +16,9 @@ body #contact-header {
     body #contact-header .header .logo-icon,
     body #contact-header .header .title-mp {
       font-size: 25px; }
+    body #contact-header .header a {
+      display: none;
+      justify-content: flex-end; }
     body #contact-header .header .custom-menu-class .menu {
       display: flex;
       justify-content: center;
@@ -29,7 +36,8 @@ body #contact-header {
         border-bottom: 3px solid black; }
     body #contact-header .header .wishlist {
       font-size: 20px;
-      font-weight: 400; }
+      font-weight: 400;
+      width: 70%; }
 
 body #contact-info {
   background-color: black;
@@ -147,6 +155,33 @@ body #contact-discount {
         font-weight: 700; }
         body #contact-discount .container .contact-wishlist .wishlist a img {
           margin-left: 5px; }
+
+body #contact-footer #contact-store {
+  margin: 15rem auto; }
+  body #contact-footer #contact-store .store {
+    display: flex;
+    align-items: center; }
+    body #contact-footer #contact-store .store .img img {
+      max-width: 100%;
+      border-radius: 70%; }
+    body #contact-footer #contact-store .store .wishlist a {
+      color: black;
+      font-size: 15px;
+      font-weight: 700; }
+      body #contact-footer #contact-store .store .wishlist a img {
+        margin-left: 5px; }
+    body #contact-footer #contact-store .store .wishlist:hover img {
+      margin-left: 10px;
+      transition: all 0.5s; }
+  body #contact-footer #contact-store .contact-time {
+    height: 18rem;
+    font-size: 18px;
+    line-height: 2;
+    background-color: black;
+    color: white;
+    padding-top: 3rem; }
+    body #contact-footer #contact-store .contact-time span img {
+      width: 60%; }
 
 body #contact-footer .footer {
   width: 75%;
