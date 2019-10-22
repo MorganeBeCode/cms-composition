@@ -2,9 +2,10 @@ body #contact-header {
   background-color: black;
   height: 15rem; }
   body #contact-header .header .custom-menu-class .menu .home a {
-    border-bottom: 0px solid black; }
+    border-bottom: 0px solid black;
+    justify-content: center; }
     body #contact-header .header .custom-menu-class .menu .home a img {
-      width: 18%; }
+      width: 15%; }
   body #contact-header .header {
     width: 75%;
     height: 95%;
@@ -17,21 +18,24 @@ body #contact-header {
     body #contact-header .header .title-mp {
       font-size: 25px; }
     body #contact-header .header a {
-      display: none;
+      display: flex;
       justify-content: flex-end; }
     body #contact-header .header .custom-menu-class .menu {
       display: flex;
       justify-content: center;
       height: 100%; }
       body #contact-header .header .custom-menu-class .menu li {
-        width: 15em;
+        width: 25em;
         margin: auto 0.3rem;
         min-height: 100%;
         display: flex;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        font-size: 14px; }
         body #contact-header .header .custom-menu-class .menu li:hover {
           border-bottom: 4px solid black; }
+      body #contact-header .header .custom-menu-class .menu li:nth-child(3) {
+        min-width: 25rem; }
       body #contact-header .header .custom-menu-class .menu .contact {
         border-bottom: 3px solid black; }
     body #contact-header .header .wishlist {

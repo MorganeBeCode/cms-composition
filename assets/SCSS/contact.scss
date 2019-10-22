@@ -7,8 +7,9 @@ body {
         height: 15rem;
         .header .custom-menu-class .menu .home a {
             border-bottom: 0px solid black;
+            justify-content: center;
             img {
-                width: 18%;
+                width: 15%;
             }
         }
         .header {
@@ -24,7 +25,7 @@ body {
                 font-size: 25px;
             }
             a {
-                display: none;
+                display: flex;
                 justify-content: flex-end;
             }
             .custom-menu-class {
@@ -33,15 +34,19 @@ body {
                     justify-content: center;
                     height: 100%;
                     li {
-                        width: 15em;
+                        width: 25em;
                         margin: auto 0.3rem;
                         min-height: 100%;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        font-size: 14px;
                         &:hover {
                             border-bottom: 4px solid black;
                         }
+                    }
+                    li:nth-child(3) {
+                        min-width: 25rem;
                     }
                     .contact {
                         border-bottom: 3px solid black;
