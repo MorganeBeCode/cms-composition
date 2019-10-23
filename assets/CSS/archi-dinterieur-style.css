@@ -136,7 +136,7 @@ body {
         margin-top: 173px;
         padding-left: 136px; }
         .content .etude-archi .etude-archi-d .etude-archi-content p {
-          font-size: 16px;
+          font-size: 14px;
           color: #fff;
           font-weight: 500;
           margin-bottom: 35px;
@@ -145,7 +145,7 @@ body {
         .content .etude-archi .etude-archi-d .etude-archi-content ul {
           padding-left: 20px; }
           .content .etude-archi .etude-archi-d .etude-archi-content ul li {
-            font-size: 16px;
+            font-size: 14px;
             color: #fff;
             font-weight: 300;
             letter-spacing: 1.2px;
@@ -167,7 +167,8 @@ body {
         letter-spacing: 1.2px;
         word-spacing: 0px;
         margin: 0;
-        margin-top: 0px; }
+        margin-top: 0px;
+        font-size: 14px; }
     .content .nghi-et-stephan h1 {
       font-size: 40px;
       font-weight: 700;

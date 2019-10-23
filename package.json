@@ -19,5 +19,7 @@
   "dependencies": {
     "node-sass": "^4.12.0"
   },
-  "description": ""
+  "description": "",
+  "node-sass": "^4.12.0",
+  "scss": "^0.2.4"
 }
