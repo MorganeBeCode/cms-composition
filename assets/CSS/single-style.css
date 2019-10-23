@@ -1,0 +1,27 @@
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  color: black; }
+
+.single-container {
+  overflow: hidden;
+  width: 65%;
+  margin: auto; }
+  .single-container a {
+    color: black; }
+  .single-container .row {
+    margin: auto; }
+  .single-container .single-texte {
+    word-break: break-word;
+    margin-bottom: 50px; }
+  .single-container .single-titre {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px; }
+  .single-container .single-image {
+    width: 100%;
+    margin-bottom: 25px; }
+  .single-container .single-date {
+    text-align: right; }
