@@ -70,6 +70,10 @@
                 <a class="google-map" href="#">Itinéraire <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="icon"></a>
             </div>
             <div class="col-lg-7 contact-map">
+                <?php $location_array = get_field('map');
+                the_field('map');
+                ?>
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/icon-googlemap-marker.svg" alt="map-icon">
             </div>
         </div>
     </section>
@@ -80,12 +84,25 @@
                 <p>Formulaire de contact</p>
             </div>
             <div class="col-lg-7 contact-form">
-                <div class="form">
-                </div>
-                <div class="send-btn">
-                    <button>Envoyer<img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt=""></button>
-                    <span>* Champs requis</span>
-                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <div class="send-btn">
+                        <button>Envoyer<img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt=""></button>
+                        <span>* Champs requis</span>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -124,6 +141,8 @@
         </div>
         <?php get_footer(); ?>
     </footer>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC4zDMMA-du2VAGdKAbLeLpvGWDwCWyoo&callback=initMap" type="text/javascript"></script>
 </body>
 
 </html>

@@ -91,7 +91,8 @@ body #contact-info {
       z-index: 3;
       background-color: white;
       height: 40rem;
-      box-shadow: 5px 2px 10px gray; }
+      box-shadow: 5px 2px 10px gray;
+      position: relative; }
 
 body #contact-question-form {
   margin: 25rem auto; }
@@ -105,19 +106,19 @@ body #contact-question-form {
       color: gray;
       line-height: 5;
       font-size: 20px; }
-    body #contact-question-form .container .contact-form .send-btn {
+    body #contact-question-form .container .contact-form form .send-btn {
       height: 15rem;
       display: flex;
       align-items: flex-end;
       border-top: 1px solid #ccc;
       position: relative; }
-      body #contact-question-form .container .contact-form .send-btn span {
+      body #contact-question-form .container .contact-form form .send-btn span {
         color: gray;
         font-size: 15px;
         position: absolute;
         top: 20px;
         right: 10px; }
-      body #contact-question-form .container .contact-form .send-btn button {
+      body #contact-question-form .container .contact-form form .send-btn button {
         background-color: black;
         color: white;
         height: 8rem;
@@ -127,38 +128,40 @@ body #contact-question-form {
         text-align: left;
         padding-left: 4rem;
         font-weight: 700; }
-        body #contact-question-form .container .contact-form .send-btn button img {
+        body #contact-question-form .container .contact-form form .send-btn button img {
           filter: invert(100%);
           margin-left: 5px; }
-        body #contact-question-form .container .contact-form .send-btn button:hover {
+        body #contact-question-form .container .contact-form form .send-btn button:hover {
           transition: all 0.5s;
           color: black;
           background-color: white;
           box-shadow: 5px 2px 10px gray; }
-          body #contact-question-form .container .contact-form .send-btn button:hover img {
+          body #contact-question-form .container .contact-form form .send-btn button:hover img {
             transition: 0.5s;
             margin-left: 10px;
             filter: invert(0%); }
 
 body #contact-discount {
   background-size: cover; }
-  body #contact-discount .container .contact-wishlist {
-    background-color: white;
-    padding: 50px;
-    margin: 15rem auto;
+  body #contact-discount .container {
     width: 75%; }
-    body #contact-discount .container .contact-wishlist h2 {
-      font-size: 40px;
-      font-weight: 700;
-      margin: 4rem auto; }
-    body #contact-discount .container .contact-wishlist .wishlist {
-      margin: 4rem auto; }
-      body #contact-discount .container .contact-wishlist .wishlist a {
-        color: black;
-        font-size: 16px;
-        font-weight: 700; }
-        body #contact-discount .container .contact-wishlist .wishlist a img {
-          margin-left: 5px; }
+    body #contact-discount .container .contact-wishlist {
+      background-color: white;
+      padding: 50px;
+      margin: 15rem auto;
+      width: 60%; }
+      body #contact-discount .container .contact-wishlist h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 4rem auto; }
+      body #contact-discount .container .contact-wishlist .wishlist {
+        margin: 4rem auto; }
+        body #contact-discount .container .contact-wishlist .wishlist a {
+          color: black;
+          font-size: 16px;
+          font-weight: 700; }
+          body #contact-discount .container .contact-wishlist .wishlist a img {
+            margin-left: 5px; }
 
 body #contact-footer #contact-store {
   margin: 15rem auto; }
@@ -183,7 +186,7 @@ body #contact-footer #contact-store {
     line-height: 2;
     background-color: black;
     color: white;
-    padding-top: 3rem; }
+    padding: 3rem 4rem; }
     body #contact-footer #contact-store .contact-time span img {
       width: 60%; }
 

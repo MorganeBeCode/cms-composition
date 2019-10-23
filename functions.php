@@ -78,3 +78,12 @@ add_action('wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet');
 add_filter('acf/rest_api/field_settings/show_in_rest', '__return_true');
 // Enable the option edit in rest
 add_filter('acf/rest_api/field_settings/edit_in_rest', '__return_true');
+
+
+// function to contact map page ...
+
+function my_acf_init()
+{
+  acf_update_setting('google_api_key', 'AIzaSyCC4zDMMA-du2VAGdKAbLeLpvGWDwCWyoo');
+}
+add_action('acf/init', 'my_acf_init');
