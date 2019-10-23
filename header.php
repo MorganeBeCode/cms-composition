@@ -5,12 +5,12 @@
     <meta charset="<?php bloginfo('charset'); ?>">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/archi-dinterieur-style.css" type="text/css" media="screen" />
-   
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/archi-dinterieur-style.css" type="text/css" media="screen" />  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <?php wp_head(); ?>
 </head>
@@ -20,7 +20,7 @@
 
 <header>
 
-
+    <div class="background"></div>
     <div class="header container">
         <div class = "logo col-lg-3">
             <ul>
