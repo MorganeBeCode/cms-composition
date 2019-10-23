@@ -3,6 +3,7 @@
   
 add_image_size( 'wpm_taille_1', 1500, 1250); 
 add_image_size( 'wpm_taille_2', 1000, 1600);
+add_image_size( 'wpm_taille_3', 1800, 1200);
 
 // enlever l'éditeur de texte Gutenberg
 // for posts
@@ -28,13 +29,13 @@ function prefix_add_archi_styles() {
 
 //add CSS to Footer
 function prefix_add_footer_styles() {
-  wp_enqueue_style( 'your-style-id', get_template_directory_uri() . '/assets/CSS/style.css' );
+  wp_enqueue_style( 'your-style-id', get_template_directory_uri() . '/assets/CSS/style.css', array(), '1.0', 'all' );
   };
   add_action( 'get_footer', 'prefix_add_footer_styles' );
 
   //
 function wpa_90820() {
-  wp_enqueue_style('my-styles', get_stylesheet_directory_uri() .'/assets/CSS/style.css', array(), '1.0' );
+  wp_enqueue_style('my-styles', get_stylesheet_directory_uri() .'/assets/CSS/style.css', array(), '1.1' );
   }
   
   add_action('wp_enqueue_scripts', 'wpa_90820');
