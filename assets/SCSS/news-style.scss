@@ -1,0 +1,60 @@
+body {
+  font: {
+    family: proxima-nova, sans-serif;
+    style: normal;
+    weight: 100;
+    size: 16px;
+  }
+  color: black;
+}
+
+.news-container {
+  overflow: hidden;
+  width: 75%;
+  margin: auto;
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    h3:hover {
+      text-decoration: underline;
+    }
+  }
+  h1 {
+    font: {
+      weight: 500;
+      size: 30px;
+    }
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .row {
+    margin: auto;
+  }
+
+  .img-container {
+    height: 300px;
+  }
+
+  .news-image {
+    height: 100%;
+    width: auto;
+  }
+
+  .news-titre {
+    font: {
+      size: 34px;
+      weight: 700;
+    }
+    margin-bottom: 30px;
+  }
+
+  .news-date {
+    font: {
+      weight: 500;
+      size: 16px;
+    }
+  }
+}

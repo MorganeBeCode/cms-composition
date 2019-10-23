@@ -16,8 +16,19 @@ add_theme_support( 'post-thumbnails' );
 // Ajouter automatiquement le titre du site dans l'en-tête du site
 add_theme_support( 'title-tag' );
 
+//add CSS to News page
+function add_news_styles() {
+  wp_enqueue_style( 'news-style', get_template_directory_uri() . '/assets/CSS/news-style.css' );
+  };
+  add_action( 'wp_enqueue_scripts', 'add_news_styles' );
+//
 
-
+//add CSS to Single page
+function add_single_styles() {
+  wp_enqueue_style( 'single-style', get_template_directory_uri() . '/assets/CSS/single-style.css' );
+  };
+  add_action( 'wp_enqueue_scripts', 'add_single_styles' );
+//
 
 function prefix_add_archi_styles() {
   wp_enqueue_style( 'archi-dinterieur-style', get_template_directory_uri() . '/assets/CSS/archi-dinterieur-style.css' );
