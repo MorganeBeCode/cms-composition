@@ -7,9 +7,18 @@ Author URI: https://github.com/rflowturing
 Version: 1.0
 */
 
+.background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    height: 135px;
+    background: black;
+}
 
 .header {
-    margin-top: 3%;
+    margin-top: 1%;
     display: flex;
     justify-content: space-between;
 

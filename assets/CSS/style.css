@@ -6,112 +6,176 @@ Author: Wolfgang Reip  Surya Hendricks Yousef Alsatouf Morgane Jansen
 Author URI: https://github.com/rflowturing
 Version: 1.0
 */
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+  height: 135px;
+  background: black;
+}
+
 .header {
-  margin-top: 3%;
+  margin-top: 1%;
   display: flex;
-  justify-content: space-between; }
-  .header a {
-    color: black;
-    font-weight: bolder; }
-  .header li {
-    display: inline;
-    list-style-type: none;
-    text-align: center;
-    margin-right: 3%; }
-  .header .logo ul {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: -40px; }
-    .header .logo ul .title-mp {
-      margin-left: -5px; }
-  .header .wishlist {
-    background-color: black;
-    color: white;
-    display: flex;
-    height: 100%; }
-    .header .wishlist ul {
-      display: flex;
-      justify-content: center;
-      margin: auto 0; }
-    .header .wishlist .bullet-icon {
-      width: 20px;
-      margin-left: 10px; }
-  .header .custom-menu-class {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    font-weight: bold;
-    min-height: 100%;
-    text-transform: uppercase; }
-    .header .custom-menu-class .menu {
-      width: 100%;
-      margin: -5px; }
-      .header .custom-menu-class .menu .home a {
-        border-bottom: 5px solid black;
-        padding-bottom: 5px; }
-        .header .custom-menu-class .menu .home a img {
-          margin-bottom: 5px;
-          padding-bottom: 3px; }
-      .header .custom-menu-class .menu a:hover {
-        text-decoration: none; }
+  justify-content: space-between;
+}
+
+.header a {
+  color: black;
+  font-weight: bolder;
+}
+
+.header li {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.header .logo ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -40px;
+}
+
+.header .logo ul .title-mp {
+  margin-left: -5px;
+}
+
+.header .wishlist {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 100%;
+}
+
+.header .wishlist ul {
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.header .wishlist .bullet-icon {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.header .custom-menu-class {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  min-height: 100%;
+  text-transform: uppercase;
+}
+
+.header .custom-menu-class .menu {
+  width: 100%;
+  margin: -5px;
+}
+
+.header .custom-menu-class .menu .home a {
+  border-bottom: 5px solid black;
+  padding-bottom: 5px;
+}
+
+.header .custom-menu-class .menu .home a img {
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+}
+
+.header .custom-menu-class .menu a:hover {
+  text-decoration: none;
+}
 
 /*************FOOTER STYLE **************/
 .footer.container {
   margin: auto;
   padding: 0px 30px;
   display: flex;
-  height: 100%; }
-  .footer.container .adress {
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400; }
-    .footer.container .adress p {
-      margin-bottom: 0px; }
-  .footer.container .map h5 {
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-bottom: 15px;
-    margin-top: 0px;
-    margin-bottom: 3rem; }
-  .footer.container .map a {
-    color: black; }
-  .footer.container .map .google-map {
-    font-weight: 700;
-    font-size: 18px;
-    padding-top: 20px; }
-    .footer.container .map .google-map img {
-      margin-left: 15px; }
-  .footer.container .adress {
-    line-height: 2; }
-    .footer.container .adress p a {
-      color: black; }
-    .footer.container .adress p img {
-      margin-right: 10px; }
-  .footer.container .sm-icons {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-    .footer.container .sm-icons .justIcons {
-      display: flex;
-      justify-content: flex-end; }
-      .footer.container .sm-icons .justIcons span {
-        width: 53px;
-        height: 53px;
-        margin-right: 13px;
-        border: 2px solid #d9d9d9;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-    .footer.container .sm-icons p {
-      padding-top: 28px;
-      padding-left: 15px; }
-      .footer.container .sm-icons p a {
-        color: black;
-        font-size: 11px;
-        font-weight: 400px; }
+  height: 100%;
+}
+
+.footer.container .adress {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.footer.container .adress p {
+  margin-bottom: 0px;
+}
+
+.footer.container .map h5 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 3rem;
+}
+
+.footer.container .map a {
+  color: black;
+}
+
+.footer.container .map .google-map {
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.footer.container .map .google-map img {
+  margin-left: 15px;
+}
+
+.footer.container .adress {
+  line-height: 2;
+}
+
+.footer.container .adress p a {
+  color: black;
+}
+
+.footer.container .adress p img {
+  margin-right: 10px;
+}
+
+.footer.container .sm-icons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer.container .sm-icons .justIcons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer.container .sm-icons .justIcons span {
+  width: 53px;
+  height: 53px;
+  margin-right: 13px;
+  border: 2px solid #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer.container .sm-icons p {
+  padding-top: 28px;
+  padding-left: 15px;
+}
+
+.footer.container .sm-icons p a {
+  color: black;
+  font-size: 11px;
+  font-weight: 400px;
+}
