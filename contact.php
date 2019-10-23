@@ -39,15 +39,31 @@
             <div class="col-lg-7">
                 <div class="col-lg-6 contact-address">
                     <span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/marker-road.svg" alt="icon"></span>
-                    <p>Route de Hamoir, 87 – 4500 Huy </p>
+                    <?php if (have_rows('info')) : ?>
+                        <?php while (have_rows('info')) : the_row(); ?>
+                            <p><?php the_sub_field('route'); ?> </p>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                     <span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/icon-arrobas.svg" alt="icon"></span>
-                    <p>info@meubles-composition.be </p>
+                    <?php if (have_rows('info')) : ?>
+                        <?php while (have_rows('info')) : the_row(); ?>
+                            <p><?php the_sub_field('e-mail'); ?> </p>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                     <span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/phone-2.svg" alt="icon"></span>
-                    <p>+32 (0)85 21 52 38</p>
+                    <?php if (have_rows('info')) : ?>
+                        <?php while (have_rows('info')) : the_row(); ?>
+                            <p><?php the_sub_field('telephone'); ?> </p>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                 </div>
                 <div class="col-lg-6 contact-time">
                     <span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/time-clock.svg" alt="icon"></span>
-                    <p class="col-lg-10"> <b>Horaires</b> <br />Lundi › dimanche : (Fermé le mardi) <br>10h › 18h</p>
+                    <?php if (have_rows('info')) : ?>
+                        <?php while (have_rows('info')) : the_row(); ?>
+                            <p class="col-lg-10"> <b>Horaires</b> <br /><?php the_sub_field('times'); ?></p>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                 </div>
             </div>
             <div class="col-lg-5 contact-route">
@@ -73,16 +89,18 @@
             </div>
         </div>
     </section>
+
     <section id="contact-discount">
         <div class="container">
             <div class="col-lg-8 contact-wishlist">
-                <h2>10% sur vos prochains achats ?</h2>
+                <h2><?php the_field('discount'); ?></h2>
                 <div class="wishlist">
                     <a href="#">Ma wishlist <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="icon"></a>
                 </div>
             </div>
         </div>
     </section>
+
     <footer id="contact-footer">
         <div class="container">
             <section id="contact-store" class="row">
@@ -96,7 +114,11 @@
                 </div>
                 <div class="col-lg-5 contact-time">
                     <span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/time-clock.svg" alt="icon"></span>
-                    <p class="col-lg-10"> <b>Horaires</b> <br />Lundi › dimanche : (Fermé le mardi) <br>10h › 18h</p>
+                    <?php if (have_rows('info')) : ?>
+                        <?php while (have_rows('info')) : the_row(); ?>
+                            <p class="col-lg-10"> <b>Horaires</b> <br /><?php the_sub_field('times'); ?></p>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                 </div>
             </section>
         </div>
