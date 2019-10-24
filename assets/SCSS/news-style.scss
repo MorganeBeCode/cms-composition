@@ -9,6 +9,26 @@ body {
   color: black;
 }
 
+.news-content {
+  max-width: 1500px;
+  margin: 0px auto;
+  padding: 0px 70px;
+
+  .news-container-background {
+    width: 100%;
+    padding: 0px;
+
+    .news-background-black {
+      background: black;
+      position: absolute;
+      left: 0;
+      top: 135px;
+      height: 380px;
+      width: 100%;
+    }
+  }
+}
+
 .news-container {
   overflow: hidden;
   width: 75%;
@@ -29,9 +49,10 @@ body {
       weight: 500;
       size: 30px;
     }
-
+    color: white;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    position: relative;
   }
 
   .row {
@@ -53,7 +74,7 @@ body {
       weight: 700;
     }
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .news-date {
