@@ -23,10 +23,10 @@ body {
   .news-container .row {
     margin: auto; }
   .news-container .img-container {
-    height: 300px; }
+    width: 95%; }
   .news-container .news-image {
-    height: 100%;
-    width: auto; }
+    height: auto;
+    width: 100%; }
   .news-container .news-titre {
     font-size: 34px;
     font-weight: 700;
