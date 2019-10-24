@@ -69,6 +69,35 @@ Version: 1.0
         text-decoration: none; }
 
 /*************FOOTER STYLE **************/
+#footer {
+  width: 75%; }
+  #footer #contact-store {
+    margin: 15rem auto; }
+    #footer #contact-store .store {
+      display: flex;
+      align-items: center; }
+      #footer #contact-store .store .img img {
+        max-width: 100%;
+        border-radius: 70%; }
+      #footer #contact-store .store .wishlist a {
+        color: black;
+        font-size: 15px;
+        font-weight: 700; }
+        #footer #contact-store .store .wishlist a img {
+          margin-left: 5px; }
+      #footer #contact-store .store .wishlist:hover img {
+        margin-left: 10px;
+        transition: all 0.5s; }
+    #footer #contact-store .contact-time {
+      height: 18rem;
+      font-size: 18px;
+      line-height: 2;
+      background-color: black;
+      color: white;
+      padding: 3rem 4rem; }
+      #footer #contact-store .contact-time span img {
+        width: 60%; }
+
 .footer.container {
   margin: auto;
   padding: 0px 30px;
