@@ -22,14 +22,7 @@
     "url": "https://github.com/rflowturing/cms-composition/issues"
   },
   "homepage": "https://github.com/rflowturing/cms-composition#readme",
-<<<<<<< HEAD
-  "description": ""
-=======
-  "dependencies": {
-    "node-sass": "^4.13.0"
-  },
   "description": "",
   "node-sass": "^4.12.0",
   "scss": "^0.2.4"
->>>>>>> 7009fb6fc0e459f914e9241fdeee2be4f1f49bec
 }

@@ -1,14 +1,4 @@
 body {
-<<<<<<< HEAD
-    font: {
-        family: proxima-nova, sans-serif;
-        style: normal;
-        weight: 100;
-        size: 16px;
-    }
-    color: black;
-}
-=======
   font: {
     family: proxima-nova, sans-serif;
     style: normal;
@@ -27,38 +17,21 @@ body {
   a {
     color: black;
   }
->>>>>>> 7009fb6fc0e459f914e9241fdeee2be4f1f49bec
 
-.single-container {
-    overflow: hidden;
-    width: 65%;
+  .row {
     margin: auto;
-    a {
-        color: black;
+  }
+
+  .single-texte {
+    word-break: break-word;
+    margin-bottom: 50px;
+  }
+
+  .single-titre {
+    font: {
+      size: 40px;
+      weight: 100;
     }
-<<<<<<< HEAD
-    .row {
-        margin: auto;
-    }
-    .single-texte {
-        word-break: break-word;
-        margin-bottom: 50px;
-    }
-    .single-titre {
-        font: {
-            size: 40px;
-            weight: 100;
-        }
-        margin-bottom: 50px;
-    }
-    .single-image {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-    .single-date {
-        text-align: right;
-    }
-=======
 
     margin-bottom: 50px;
   }
@@ -71,5 +44,4 @@ body {
   .single-date {
     text-align: right;
   }
->>>>>>> 7009fb6fc0e459f914e9241fdeee2be4f1f49bec
 }

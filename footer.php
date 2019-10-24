@@ -1,6 +1,5 @@
 <?php wp_footer(); ?>
 <div id="footer" class="container">
-<<<<<<< HEAD
     <section id="contact-store" class="row">
         <div class="col-lg-7 store">
             <div class="img col-lg-4">
@@ -19,22 +18,6 @@
             <?php endif; ?>
         </div>
     </section>
-=======
-<section id="contact-store" class="row">
-<div class="col-lg-7 store">
-<div class="img col-lg-4">
-<img src="<?php bloginfo('template_url'); ?>/assets/img/jpg/1500x1250_02.jpg" alt="image">
-</div>
-<div class="wishlist col-lg-8">
-<a href="#">Tissus et habillage maison <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="icon"></a>
-</div>
-</div>
-<div class="col-lg-5 contact-time">
-<span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/time-clock.svg" alt="icon"></span>
-<p class="col-lg-10"> <b>Horaires</b> <br /><?php the_field( 'times' ); ?></p>
-</div>
-</section>
->>>>>>> 7009fb6fc0e459f914e9241fdeee2be4f1f49bec
 </div>
 <div class="footer container">
     <div class="map col-lg-4">
