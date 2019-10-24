@@ -24,9 +24,13 @@
 
 <!-- MAIN -->
 <div class="news-container mb-5">
-    
+    <div class="news-content">
+		<div class = "news-container-background">
+			<div class ="news-background-black">
+            </div>
+        </div>
+    </div>
     <h1>Architecte d'intérieur en action</h1>
-
     <?php $q = new WP_Query(array( 
         	'post_type' => 'news',
         	'order'   => 'ASC',
@@ -51,7 +55,7 @@
                     </div>
                     <div>
 					    <h3 class="news-titre"><?php the_title(); ?></h3>
-                        <p class="news-date"><?php the_date(); ?></p>
+                        <p class="news-date"> &mdash; <?php the_date(); ?></p>
 				    </div>
 			    </a>
 		    </div>

@@ -22,12 +22,13 @@ $container-width: 75%;
 }
 
 .header {
+  width: 75%;
   margin-top: 1%;
   display: flex;
   justify-content: space-between;
-
+  color: white;
   a {
-    color: black;
+    color: white;
     font-weight: bolder;
   }
 
@@ -38,55 +39,49 @@ $container-width: 75%;
     margin-right: 3%;
   }
 
-  .logo {
-    ul {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      height: 100%;
-      font-size: 20px;
-      font-weight: bold;
-      margin-left: -40px;
-
-      .title-mp {
-        margin-left: -5px;
-      }
-    }
+  .logo-icon {
+    width: 80%;
+    height: auto;
   }
 
   .wishlist {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
+    width: 75%;
     height: 100%;
-
-    ul {
-      display: flex;
-      justify-content: center;
-      margin: auto 0;
+    .wishlist-txt {
+      text-align: center;
+      align-self: center;
+      padding-left: 15px;
+      font: {
+        size: 14px;
+        weight: bold;
+      }
     }
-
     .bullet-icon {
-      width: 20px;
-      margin-left: 10px;
+      width: 15px;
+      margin-left: 15px;
     }
   }
 
   .custom-menu-class {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     min-height: 100%;
     text-transform: uppercase;
+    text-align: right;
 
     .menu {
       width: 100%;
       margin: -5px;
+      padding: 0;
 
       .home {
         a {
-          border-bottom: 5px solid black;
+          border-bottom: 5px solid white;
           padding-bottom: 5px;
 
           img {
