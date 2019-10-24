@@ -1,16 +1,9 @@
 <?php
 
-<<<<<<< HEAD
-  
-add_image_size( 'wpm_taille_1', 1500, 1250); 
-add_image_size( 'wpm_taille_2', 1000, 1600);
-add_image_size( 'wpm_taille_3', 1800, 1200);
-=======
 
 add_image_size('wpm_taille_1', 1500, 1250);
 add_image_size('wpm_taille_2', 1000, 1600);
 add_image_size('wpm_taille_3', 1800, 1200);
->>>>>>> 48a22cc737cecc931cdcb67e35793e2828b58c84
 
 // enlever l'éditeur de texte Gutenberg
 // for posts
@@ -28,27 +21,13 @@ add_theme_support('title-tag');
 
 
 //add CSS to News page
-<<<<<<< HEAD
-function add_news_styles() {
-  wp_enqueue_style( 'news-style', get_template_directory_uri() . '/assets/CSS/news-style.css' );
-  };
-  add_action( 'wp_enqueue_scripts', 'add_news_styles' );
-//
-
-function prefix_add_archi_styles()
-=======
 function add_news_styles()
->>>>>>> 48a22cc737cecc931cdcb67e35793e2828b58c84
 {
   wp_enqueue_style('news-style', get_template_directory_uri() . '/assets/CSS/news-style.css');
 };
 add_action('wp_enqueue_scripts', 'add_news_styles');
 //
 
-<<<<<<< HEAD
-//contact style here ...
-=======
->>>>>>> 48a22cc737cecc931cdcb67e35793e2828b58c84
 //add CSS to Single page
 function add_single_styles()
 {
@@ -68,19 +47,6 @@ add_action('wp_enqueue_scripts', 'prefix_add_contact_styles');
 //end contact style .....
 
 //add CSS to Footer
-<<<<<<< HEAD
-function prefix_add_footer_styles() {
-  wp_enqueue_style( 'your-style-id', get_template_directory_uri() . '/assets/CSS/style.css', array(), '1.0', 'all' );
-  };
-  add_action( 'get_footer', 'prefix_add_footer_styles' );
-
-  //
-function wpa_90820() {
-  wp_enqueue_style('my-styles', get_stylesheet_directory_uri() .'/assets/CSS/style.css', array(), '1.1' );
-  }
-  
-  add_action('wp_enqueue_scripts', 'wpa_90820');
-=======
 function prefix_add_footer_styles()
 {
   wp_enqueue_style('your-style-id', get_template_directory_uri() . '/assets/CSS/style.css', array(), '1.0', 'all');
@@ -94,7 +60,6 @@ function wpa_90820()
 }
 
 add_action('wp_enqueue_scripts', 'wpa_90820');
->>>>>>> 48a22cc737cecc931cdcb67e35793e2828b58c84
 
 
 //Ajouter custome menu
