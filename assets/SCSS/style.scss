@@ -6,6 +6,9 @@ Author: Wolfgang Reip  Surya Hendricks Yousef Alsatouf Morgane Jansen
 Author URI: https://github.com/rflowturing
 Version: 1.0
 */
+$black-main-color: black;
+$white-main-color: white;
+$container-width: 75%;
 
 .background {
     position: absolute;
@@ -14,7 +17,7 @@ Version: 1.0
     width: 100%;
     display: inline-block;
     height: 135px;
-    background: black;
+    background: rgb(255, 252, 252);
 }
 
 .header {
@@ -122,6 +125,60 @@ Version: 1.0
 
 
 /*************FOOTER STYLE **************/
+
+#footer {
+    width: $container-width;
+
+    #contact-store {
+        margin: 15rem auto;
+
+        .store {
+            display: flex;
+            align-items: center;
+
+            .img {
+                img {
+                    max-width: 100%;
+                    border-radius: 70%;
+                }
+            }
+
+            .wishlist {
+                a {
+                    color: $black-main-color;
+                    font-size: 15px;
+                    font-weight: 700;
+
+                    img {
+                        margin-left: 5px;
+                    }
+                }
+
+                &:hover {
+                    img {
+                        margin-left: 10px;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+
+        .contact-time {
+            height: 18rem;
+            font-size: 18px;
+            line-height: 2;
+            background-color: $black-main-color;
+            color: $white-main-color;
+            padding: 3rem 4rem;
+
+            span {
+                img {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
 
 .footer.container {
 
@@ -451,10 +508,13 @@ sans-serif;
             }
 
             .down {
+
+                background-color: rgb(255, 255, 255);
                 width: 88%;
                 height: 100%;
                 padding-left: 28%;
                 padding-top: 20px;
+
 
                 h2 {
                     font-family: $proxi;
@@ -634,6 +694,414 @@ sans-serif;
     }
 }
 
-// Tablette : ____________ .
+// Tablette : 1270______ .
 
-// Mobille : _____________ .
+@media screen and (min-width: 1100px) and (max-width: 1270px) {
+
+    // --------------------------------------
+    // ----------------TOP-------------------
+    // --------------------------------------
+
+    .top-s {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 200px;
+
+
+
+        div {
+            margin: 0;
+            padding: 0;
+
+            .image-g {
+                width: 100%;
+                height: 700px;
+                z-index: 1;
+
+            }
+
+            .image-d {
+                width: 100%;
+                height: 700px;
+
+            }
+        }
+    }
+
+
+
+    .img-g {
+
+        position: relative;
+    }
+
+    // ----------------survol gauche------------
+    .survol-g {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        width: 65%;
+        height: 150px;
+        left: 25%;
+        top: calc(100% - 79px);
+        box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+        transition: height 0.3s ease-in-out;
+        z-index: 2;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+
+    // -------------------survol droite------------
+
+    .survol-d {
+        position: absolute;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        width: 65%;
+        height: 150px;
+        right: 25%;
+        top: calc(100% - 79px);
+        box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+        transition: height 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+
+    // -----------------------titres et textes-------------
+    .bloc-fleche-g {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 125px;
+        right: 180px;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloc-fleche-d {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 125px;
+        right: 180px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fleche-g {
+        filter: invert(100%);
+    }
+
+    .fleche-lien-g {
+        margin-left: 10px;
+    }
+
+    .fleche-lien-d {
+        margin-left: 10px;
+        filter: invert(100%);
+    }
+
+    .titre {
+        margin-top: 10%;
+        margin-left: 18%;
+        transition: opacity 0.3s ease-in-out;
+        font-size: 24px;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 300;
+    }
+
+    .sous-titre,
+    .texte-lien,
+    .titre-lien {
+        opacity: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .texte-lien {
+        margin-bottom: 25px;
+    }
+
+    .sous-titre {
+        margin-top: -40px;
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 300;
+    }
+
+    .titre-lien {
+        text-decoration: underline;
+        font-size: 18px;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: bold;
+    }
+
+    // --------------------------------------
+    // ----------------INTRO-----------------
+    // --------------------------------------
+
+    .intro-s {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        .row {
+            margin-bottom: 290px;
+
+            .left {
+                position: relative;
+                margin: 0;
+                padding: 0;
+
+
+
+                .top {
+                    position: absolute;
+                    left: 350px;
+                    width: 70%;
+                    height: 300px;
+                    margin-top: 80px;
+                    margin-bottom: 40px;
+                    padding-left: 8%;
+                    background-color: rgb(0, 0, 0);
+                    display: flex;
+                    align-items: center;
+                    z-index: 2;
+
+                    p {
+                        font-size: 27px;
+                        font-family: $proxi;
+                        color: white;
+                        font-weight: 400;
+                        letter-spacing: 0.3px;
+                        word-spacing: 0.5px;
+                    }
+
+
+                }
+
+                .down {
+                    position: relative;
+                    background-color: rgb(255, 255, 255);
+                    width: 100%;
+                    height: 100%;
+                    top: 587px;
+                    left: 300px;
+                    padding: 50px;
+                    z-index: 2;
+
+
+
+
+                    h2 {
+                        font-family: $proxi;
+                        font-size: 27px;
+                        font-weight: 700;
+                        width: 85%;
+                        margin-bottom: 40px;
+                        color: black;
+
+                    }
+
+                    p {
+                        font-family: $proxi;
+                        font-size: 16px;
+                        font-weight: 400;
+                        letter-spacing: 0.3px;
+                        word-spacing: 0.5px;
+                        line-height: 2;
+                        color: black;
+                        margin-bottom: 40px;
+                    }
+
+                    a {
+                        font-family: $proxi;
+                        position: relative;
+
+                        p {
+                            margin: 0;
+                            padding: 0;
+                            font-weight: 700;
+                            width: 25%;
+
+                            img {
+                                margin-left: 20px;
+
+                            }
+                        }
+
+
+                    }
+                }
+
+
+            }
+
+            .right {
+
+                margin: 0;
+                padding: 0;
+                margin-left: 40px;
+
+
+                img {
+                    z-index: 1;
+                    margin-right: 60px;
+                    width: 100%;
+                    height: 800px;
+                }
+            }
+        }
+    }
+
+
+
+
+    // --------------------------------------
+    // ----------------milieu----------------
+    // --------------------------------------
+
+    #middle {
+        width: 100%;
+        height: 750px;
+        position: relative;
+
+        .gris {
+            position: absolute;
+            width: 60%;
+            height: 750px;
+            left: 0;
+            background-color: rgba(134, 133, 133, 0.103);
+        }
+
+        .milieu-s {
+            .milieu {
+                height: 700px;
+                padding-left: 20%;
+
+
+
+                img {
+                    margin-top: 20%;
+                    margin-bottom: 5%;
+                }
+
+                h1 {
+                    font-family: $proxi;
+                    font-size: 45px;
+                    font-weight: 700;
+                    color: black;
+                    margin-bottom: 5%;
+                    max-width: 90%;
+                }
+
+                a {
+
+
+                    p {
+
+                        color: black;
+                        font-size: 18px;
+                        font-weight: 700;
+                        font-family: $proxi;
+
+                        img {
+                            margin: 0;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    // --------------------------------------
+    // ----------------tissus----------------
+    // --------------------------------------
+
+    .tissus-s {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .img-t {
+            margin: 0;
+            padding: 0;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .right {
+            padding-left: 70px;
+
+            h2 {
+                margin-top: 15%;
+                font-size: 27px;
+                font-family: $proxi;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+
+            p:nth-child(4) {
+                margin-bottom: 70px;
+            }
+
+            p {
+                font-size: 16px;
+                font-family: $proxi;
+                font-weight: 300;
+                line-height: 2;
+                letter-spacing: 0.3px;
+                word-spacing: 0.5px;
+                max-width: 100%;
+
+            }
+
+
+
+
+
+            a {
+                margin-top: 60px;
+
+
+                p {
+                    color: black;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: $proxi;
+
+                    img {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// Mobille : 640_________ .

@@ -13,7 +13,7 @@ Version: 1.0
   width: 100%;
   display: inline-block;
   height: 135px;
-  background: black; }
+  background: #fffcfc; }
 
 .header {
   margin-top: 1%;
@@ -69,6 +69,35 @@ Version: 1.0
         text-decoration: none; }
 
 /*************FOOTER STYLE **************/
+#footer {
+  width: 75%; }
+  #footer #contact-store {
+    margin: 15rem auto; }
+    #footer #contact-store .store {
+      display: flex;
+      align-items: center; }
+      #footer #contact-store .store .img img {
+        max-width: 100%;
+        border-radius: 70%; }
+      #footer #contact-store .store .wishlist a {
+        color: black;
+        font-size: 15px;
+        font-weight: 700; }
+        #footer #contact-store .store .wishlist a img {
+          margin-left: 5px; }
+      #footer #contact-store .store .wishlist:hover img {
+        margin-left: 10px;
+        transition: all 0.5s; }
+    #footer #contact-store .contact-time {
+      height: 18rem;
+      font-size: 18px;
+      line-height: 2;
+      background-color: black;
+      color: white;
+      padding: 3rem 4rem; }
+      #footer #contact-store .contact-time span img {
+        width: 60%; }
+
 .footer.container {
   margin: auto;
   padding: 0px 30px;
@@ -293,6 +322,7 @@ Version: 1.0
         letter-spacing: 0.3px;
         word-spacing: 0.5px; }
     .intro-s .row .left .down {
+      background-color: white;
       width: 88%;
       height: 100%;
       padding-left: 28%;
@@ -400,3 +430,250 @@ Version: 1.0
         font-family: "proxima-nova", sans-serif; }
         .tissus-s .right a p img {
           margin-left: 20px; }
+
+@media screen and (min-width: 1100px) and (max-width: 1270px) {
+  .top-s {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 200px; }
+    .top-s div {
+      margin: 0;
+      padding: 0; }
+      .top-s div .image-g {
+        width: 100%;
+        height: 700px;
+        z-index: 1; }
+      .top-s div .image-d {
+        width: 100%;
+        height: 700px; }
+  .img-g {
+    position: relative; }
+  .survol-g {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 65%;
+    height: 150px;
+    left: 25%;
+    top: calc(100% - 79px);
+    box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+    transition: height 0.3s ease-in-out;
+    z-index: 2;
+    transition: all 0.3s ease-in-out; }
+  .survol-d {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 65%;
+    height: 150px;
+    right: 25%;
+    top: calc(100% - 79px);
+    box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+    transition: height 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .bloc-fleche-g {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    right: 180px;
+    background-color: black;
+    box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .bloc-fleche-d {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    right: 180px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .fleche-g {
+    filter: invert(100%); }
+  .fleche-lien-g {
+    margin-left: 10px; }
+  .fleche-lien-d {
+    margin-left: 10px;
+    filter: invert(100%); }
+  .titre {
+    margin-top: 10%;
+    margin-left: 18%;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 24px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300; }
+  .sous-titre,
+  .texte-lien,
+  .titre-lien {
+    opacity: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: opacity 0.3s ease-in-out; }
+  .texte-lien {
+    margin-bottom: 25px; }
+  .sous-titre {
+    margin-top: -40px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300; }
+  .titre-lien {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: bold; }
+  .intro-s {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    .intro-s .row {
+      margin-bottom: 290px; }
+      .intro-s .row .left {
+        position: relative;
+        margin: 0;
+        padding: 0; }
+        .intro-s .row .left .top {
+          position: absolute;
+          left: 350px;
+          width: 70%;
+          height: 300px;
+          margin-top: 80px;
+          margin-bottom: 40px;
+          padding-left: 8%;
+          background-color: black;
+          display: flex;
+          align-items: center;
+          z-index: 2; }
+          .intro-s .row .left .top p {
+            font-size: 27px;
+            font-family: "proxima-nova", sans-serif;
+            color: white;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            word-spacing: 0.5px; }
+        .intro-s .row .left .down {
+          position: relative;
+          background-color: white;
+          width: 100%;
+          height: 100%;
+          top: 587px;
+          left: 300px;
+          padding: 50px;
+          z-index: 2; }
+          .intro-s .row .left .down h2 {
+            font-family: "proxima-nova", sans-serif;
+            font-size: 27px;
+            font-weight: 700;
+            width: 85%;
+            margin-bottom: 40px;
+            color: black; }
+          .intro-s .row .left .down p {
+            font-family: "proxima-nova", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            word-spacing: 0.5px;
+            line-height: 2;
+            color: black;
+            margin-bottom: 40px; }
+          .intro-s .row .left .down a {
+            font-family: "proxima-nova", sans-serif;
+            position: relative; }
+            .intro-s .row .left .down a p {
+              margin: 0;
+              padding: 0;
+              font-weight: 700;
+              width: 25%; }
+              .intro-s .row .left .down a p img {
+                margin-left: 20px; }
+      .intro-s .row .right {
+        margin: 0;
+        padding: 0;
+        margin-left: 40px; }
+        .intro-s .row .right img {
+          z-index: 1;
+          margin-right: 60px;
+          width: 100%;
+          height: 800px; }
+  #middle {
+    width: 100%;
+    height: 750px;
+    position: relative; }
+    #middle .gris {
+      position: absolute;
+      width: 60%;
+      height: 750px;
+      left: 0;
+      background-color: rgba(134, 133, 133, 0.103); }
+    #middle .milieu-s .milieu {
+      height: 700px;
+      padding-left: 20%; }
+      #middle .milieu-s .milieu img {
+        margin-top: 20%;
+        margin-bottom: 5%; }
+      #middle .milieu-s .milieu h1 {
+        font-family: "proxima-nova", sans-serif;
+        font-size: 45px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 5%;
+        max-width: 90%; }
+      #middle .milieu-s .milieu a p {
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: "proxima-nova", sans-serif; }
+        #middle .milieu-s .milieu a p img {
+          margin: 0;
+          margin-left: 20px; }
+  .tissus-s {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .tissus-s .img-t {
+      margin: 0;
+      padding: 0; }
+      .tissus-s .img-t img {
+        max-width: 100%; }
+    .tissus-s .right {
+      padding-left: 70px; }
+      .tissus-s .right h2 {
+        margin-top: 15%;
+        font-size: 27px;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px; }
+      .tissus-s .right p:nth-child(4) {
+        margin-bottom: 70px; }
+      .tissus-s .right p {
+        font-size: 16px;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 300;
+        line-height: 2;
+        letter-spacing: 0.3px;
+        word-spacing: 0.5px;
+        max-width: 100%; }
+      .tissus-s .right a {
+        margin-top: 60px; }
+        .tissus-s .right a p {
+          color: black;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: "proxima-nova", sans-serif; }
+          .tissus-s .right a p img {
+            margin-left: 20px; } }
