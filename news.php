@@ -36,7 +36,7 @@
     <div class="row">
     <?php if ( $q->have_posts() ) : 
         while( $q->have_posts() ) : $q->the_post();?>
-		    <div class="col-md-6 mt-5 mb-5 p-0" id="<?php echo $post->post_name; ?>">
+		    <div class="col-lg-6 col-md-12 col-sm-12 mt-5 mb-5 p-0" id="<?php echo $post->post_name; ?>">
                 <a href="<?php the_permalink(); ?>">	
                     <div class="img-container">
                         <?php if( have_rows('post') ): 

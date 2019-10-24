@@ -39,12 +39,12 @@ body {
   }
 
   .img-container {
-    height: 300px;
+    width: 95%;
   }
 
   .news-image {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
   }
 
   .news-titre {
@@ -62,4 +62,9 @@ body {
       size: 16px;
     }
   }
+}
+
+/// responsive
+
+@media screen and (max-width: 1270px) {
 }
