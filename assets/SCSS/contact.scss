@@ -1,6 +1,6 @@
     $black-main-color: black;
     $white-main-color: white;
-    $container-width: 75%;
+    $container-contact-width: 75%;
     body {
         #contact-header {
             background-color: $black-main-color;
@@ -13,7 +13,7 @@
                 }
             }
             .header {
-                width: $container-width;
+                width: $container-contact-width;
                 height: 95%;
                 margin: auto;
                 padding-top: 4rem;
@@ -74,7 +74,7 @@
             }
             .contact-container {
                 color: $white-main-color;
-                width: $container-width;
+                width: $container-contact-width;
                 position: relative;
                 >div {
                     margin-top: 15rem;
@@ -136,7 +136,7 @@
         #contact-question-form {
             margin: 25rem auto;
             .container {
-                width: $container-width;
+                width: $container-contact-width;
                 .contact-question {
                     h1 {
                         font-size: 40px;
@@ -198,7 +198,9 @@
         #contact-discount {
             background-size: cover;
             .container {
-                width: $container-width;
+                width: $container-contact-width;
+                display: flex;
+                align-items: center;
                 .contact-wishlist {
                     background-color: $white-main-color;
                     padding: 50px;
@@ -224,52 +226,59 @@
             }
         }
         #contact-footer {
-            #contact-store {
-                margin: 15rem auto;
-                .store {
-                    display: flex;
-                    align-items: center;
-                    .img {
-                        img {
-                            max-width: 100%;
-                            border-radius: 70%;
-                        }
-                    }
-                    .wishlist {
-                        a {
-                            color: $black-main-color;
-                            font-size: 15px;
-                            font-weight: 700;
-                            img {
-                                margin-left: 5px;
-                            }
-                        }
-                        &:hover {
-                            img {
-                                margin-left: 10px;
-                                transition: all 0.5s;
-                            }
-                        }
-                    }
-                }
-                .contact-time {
-                    height: 18rem;
-                    font-size: 18px;
-                    line-height: 2;
-                    background-color: $black-main-color;
-                    color: $white-main-color;
-                    padding: 3rem 4rem;
-                    span {
-                        img {
-                            width: 60%;
-                        }
-                    }
-                }
+            #footer {
+                display: none;
             }
-            .footer {
-                width: $container-width;
-                padding: 5rem 0rem;
-                border-top: 1px solid #ccc;
+            .container {
+                width: $container-contact-width;
+                #contact-store {
+                    margin: 15rem auto;
+                    .store {
+                        display: flex;
+                        align-items: center;
+                        .img {
+                            img {
+                                max-width: 100%;
+                                border-radius: 70%;
+                            }
+                        }
+                        .wishlist {
+                            a {
+                                color: $black-main-color;
+                                font-size: 15px;
+                                font-weight: 700;
+                                img {
+                                    margin-left: 5px;
+                                }
+                            }
+                            &:hover {
+                                img {
+                                    margin-left: 10px;
+                                    transition: all 0.5s;
+                                }
+                            }
+                        }
+                    }
+                    .contact-time {
+                        height: 18rem;
+                        font-size: 18px;
+                        line-height: 2;
+                        background-color: $black-main-color;
+                        color: $white-main-color;
+                        padding: 5rem;
+                        //width: 50%;
+                        span {
+                            img {
+                                width: 60%;
+                            }
+                        }
+                    }
+                }
+                .footer {
+                    width: $container-contact-width;
+                    padding: 5rem 0rem;
+                    border-top: 1px solid #ccc;
+                }
             }
         }
     }

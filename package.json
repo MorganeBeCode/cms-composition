@@ -2,6 +2,12 @@
   "name": "cms-composition",
   "version": "1.0.0",
   "main": "index.js",
+  "dependencies": {
+    "glob": "^7.1.5",
+    "graceful-fs": "^4.2.3",
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch assets/SCSS -o assets/CSS"
@@ -16,15 +22,5 @@
     "url": "https://github.com/rflowturing/cms-composition/issues"
   },
   "homepage": "https://github.com/rflowturing/cms-composition#readme",
-  "dependencies": {
-    "node-sass": "^4.12.0"
-<<<<<<< HEAD
-  }
+  "description": ""
 }
-=======
-  },
-  "description": "",
-  "node-sass": "^4.12.0",
-  "scss": "^0.2.4"
-}
->>>>>>> 730c4ebdca2faf82293755119a0efd2b95f542fe

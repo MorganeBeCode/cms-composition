@@ -8,21 +8,18 @@ Version: 1.0
 
 
 /***** Diaporama + titre *******/
+
 body {
     overflow-x: hidden;
 }
 
 .content {
-
     max-width: 1500px;
     margin: 0px auto;
     padding: 0px 70px;
-
     .container.body {
-
         width: 100%;
         padding: 0px;
-
         .background-black {
             background: black;
             position: absolute;
@@ -31,20 +28,16 @@ body {
             height: calc(776px - 140px);
             width: 100%;
         }
-
         .titre.diapo {
             padding: 0px;
             display: flex;
             padding-left: 0px;
             padding-top: 167px;
             margin-bottom: 100px;
-
-
             .ligne {
                 padding-left: 0px;
                 width: 23%;
             }
-
             hr {
                 display: block;
                 margin-top: 1.8em;
@@ -57,13 +50,11 @@ body {
                 opacity: 0.2;
             }
         }
-
         .titre.principal {
             display: flex;
             width: auto;
             flex-direction: column;
             width: 81%;
-
             .h1 {
                 font-size: 40px;
                 font-weight: 300;
@@ -73,11 +64,9 @@ body {
                 line-height: 1.4;
                 font-family: "proxima-nova", sans-serif;
             }
-
             img {
                 width: 100%;
             }
-
             .titre-image {
                 background: #fff;
                 position: absolute;
@@ -88,19 +77,16 @@ body {
                 align-items: center;
                 padding: 10px 25px;
                 height: 68px;
-
                 .nom-image {
                     font-size: 18px;
                     font-weight: 400;
                     text-align: center;
                     padding: 0 30px 0 10px;
                 }
-
                 p {
                     margin-bottom: 0px;
                 }
             }
-
             .projet {
                 font-size: 18px;
                 font-weight: 700;
@@ -111,7 +97,6 @@ body {
                 width: 200px;
                 border-left: 1px solid #000;
             }
-
             .titre-h1 {
                 margin-top: 0px;
                 font-size: 40px;
@@ -123,14 +108,10 @@ body {
                 word-spacing: 0.5px;
             }
         }
-
     }
-
-
     .etude-archi {
         height: 43em;
         padding: 0px;
-
         .black {
             content: "";
             display: inline-block;
@@ -141,10 +122,8 @@ body {
             top: 0;
             background: inherit;
         }
-
         .text {
             margin-right: 0px;
-
             .titre-etude-archi {
                 font-size: 40px;
                 font-weight: 700;
@@ -152,7 +131,6 @@ body {
                 font-family: "proxima-nova", sans-serif;
                 margin-top: 0px;
             }
-
             .soustitre-etude-archi {
                 line-height: 1.65;
                 font-weight: 400;
@@ -160,9 +138,7 @@ body {
                 word-spacing: 0.5px;
                 margin-bottom: 65px;
             }
-
             p {
-
                 font-size: 16px;
                 font-weight: 300;
                 line-height: 2;
@@ -172,22 +148,15 @@ body {
                 margin: 0;
                 margin-top: 0px;
                 margin-bottom: 0px;
-
-
             }
-
         }
-
         .etude-archi-d {
-
             background-color: black;
             height: inherit;
             position: relative;
-
             .etude-archi-content {
                 margin-top: 173px;
                 padding-left: 136px;
-
                 p {
                     font-size: 16px;
                     color: #fff;
@@ -196,10 +165,8 @@ body {
                     letter-spacing: 1.2px;
                     line-height: 2;
                 }
-
                 ul {
                     padding-left: 20px;
-
                     li {
                         font-size: 16px;
                         color: #fff;
@@ -208,29 +175,21 @@ body {
                         line-height: 2;
                     }
                 }
-
             }
-
         }
     }
-
     .nghi-et-stephan {
         padding: 0px;
         margin-bottom: 13%;
-
         .photo {
             padding: 0px;
         }
-
         img {
             width: 100%;
         }
-
         .text {
             padding: 83px 17% 0px 9%;
-
             p {
-
                 line-height: 2;
                 font-weight: 300;
                 margin-bottom: 20px;
@@ -239,30 +198,23 @@ body {
                 word-spacing: 0px;
                 margin: 0;
                 margin-top: 0px;
-
             }
         }
-
         h1 {
             font-size: 40px;
             font-weight: 700;
             margin-bottom: 30px;
         }
-
         h2 {
             margin-bottom: 55px;
             font-size: 16px;
-
         }
     }
-
     .tissu-et-artisanat {
         padding-left: 19%;
         padding-right: 0px;
-
         .diapo {
             margin-bottom: 100px;
-
             .greyblock {
                 content: "";
                 background-color: #f6f6f6 !important;
@@ -275,25 +227,19 @@ body {
                 background: inherit;
             }
         }
-
         .tissus-image {
             width: 100%;
             height: 100%;
-
         }
-
         .titre-sstitre-gauche {
-
             padding: 0px;
             padding-right: 10px;
-
             h1 {
                 font-size: 40px;
                 font-weight: 700;
                 margin-bottom: 35px;
                 margin-top: 0px;
             }
-
             h2 {
                 font-size: 16px;
                 font-weight: 600;
@@ -302,7 +248,6 @@ body {
                 letter-spacing: 0.3px;
                 word-spacing: 0.5px;
             }
-
             p {
                 font-size: 14px;
                 font-weight: 300;
@@ -315,9 +260,7 @@ body {
                 margin-bottom: 0px;
             }
         }
-
         .liste-droite {
-
             position: relative;
             font-size: 14px;
             font-weight: 300;
@@ -332,11 +275,6 @@ body {
             letter-spacing: 1.2px;
             word-spacing: 0px;
             margin-top: 119px;
-
         }
-
-
     }
-
-
 }
