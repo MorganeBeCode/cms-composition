@@ -5,6 +5,7 @@ body {
     weight: 100;
     size: 16px;
   }
+
   color: black;
 }
 
@@ -17,15 +18,18 @@ body {
     text-decoration: none;
     cursor: pointer;
     color: black;
+
     h3:hover {
       text-decoration: underline;
     }
   }
+
   h1 {
     font: {
       weight: 500;
       size: 30px;
     }
+
     margin-top: 100px;
     margin-bottom: 50px;
   }
@@ -48,6 +52,7 @@ body {
       size: 34px;
       weight: 700;
     }
+
     margin-bottom: 30px;
   }
 

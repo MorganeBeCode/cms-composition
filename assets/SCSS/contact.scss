@@ -1,17 +1,21 @@
     $black-main-color: black;
     $white-main-color: white;
     $container-width: 75%;
+
     body {
         #contact-header {
             background-color: $black-main-color;
             height: 15rem;
+
             .header .custom-menu-class .menu .home a {
                 border-bottom: 0px solid black;
                 justify-content: center;
+
                 img {
                     width: 15%;
                 }
             }
+
             .header {
                 width: $container-width;
                 height: 95%;
@@ -20,19 +24,23 @@
                 padding-bottom: 4rem;
                 border-bottom: 1px solid #ccc;
                 filter: invert(100%);
+
                 .logo-icon,
                 .title-mp {
                     font-size: 25px;
                 }
+
                 a {
                     display: flex;
                     justify-content: flex-end;
                 }
+
                 .custom-menu-class {
                     .menu {
                         display: flex;
                         justify-content: center;
                         height: 100%;
+
                         li {
                             width: 25em;
                             margin: auto 0.3rem;
@@ -41,18 +49,22 @@
                             align-items: center;
                             justify-content: center;
                             font-size: 14px;
+
                             &:hover {
                                 border-bottom: 4px solid black;
                             }
                         }
+
                         li:nth-child(3) {
                             min-width: 25rem;
                         }
+
                         .contact {
                             border-bottom: 3px solid black;
                         }
                     }
                 }
+
                 .wishlist {
                     font-size: 20px;
                     font-weight: 400;
@@ -60,10 +72,12 @@
                 }
             }
         }
+
         #contact-info {
             background-color: $black-main-color;
             height: 75rem;
             position: relative;
+
             .trait {
                 height: 1px;
                 width: 11%;
@@ -72,13 +86,16 @@
                 left: 0rem;
                 top: 19rem;
             }
+
             .contact-container {
                 color: $white-main-color;
                 width: $container-width;
                 position: relative;
+
                 >div {
                     margin-top: 15rem;
                 }
+
                 .contact-title {
                     h1 {
                         color: $white-main-color;
@@ -86,17 +103,20 @@
                         font-weight: 100;
                     }
                 }
+
                 .contact-address,
                 .contact-time {
                     font-size: 18px;
                     line-height: 2;
                     margin-top: 5rem;
+
                     span {
                         img {
                             width: 60%;
                         }
                     }
                 }
+
                 .contact-address {
                     span {
                         img {
@@ -104,17 +124,21 @@
                         }
                     }
                 }
+
                 .contact-route {
                     font-size: 20px;
                     color: $black-main-color;
                     height: 25rem;
                     display: flex;
                     align-items: flex-end;
+
                     a {
                         color: $white-main-color;
+
                         img {
                             filter: invert(100%);
                         }
+
                         &:hover {
                             img {
                                 transition: all 0.5s;
@@ -123,32 +147,39 @@
                         }
                     }
                 }
+
                 .contact-map {
                     z-index: 3;
                     background-color: $white-main-color;
                     height: 40rem;
                     box-shadow: 5px 2px 10px gray;
                     position: relative;
+
                     img {}
                 }
             }
         }
+
         #contact-question-form {
             margin: 25rem auto;
+
             .container {
                 width: $container-width;
+
                 .contact-question {
                     h1 {
                         font-size: 40px;
                         font-weight: 700;
                         color: $black-main-color;
                     }
+
                     p {
                         color: gray;
                         line-height: 5;
                         font-size: 20px;
                     }
                 }
+
                 .contact-form {
                     form {
                         .send-btn {
@@ -157,6 +188,7 @@
                             align-items: flex-end;
                             border-top: 1px solid #ccc;
                             position: relative;
+
                             span {
                                 color: gray;
                                 font-size: 15px;
@@ -164,6 +196,7 @@
                                 top: 20px;
                                 right: 10px;
                             }
+
                             button {
                                 background-color: $black-main-color;
                                 color: $white-main-color;
@@ -174,17 +207,21 @@
                                 text-align: left;
                                 padding-left: 4rem;
                                 font-weight: 700;
+
                                 img {
                                     filter: invert(100%);
                                     margin-left: 5px;
                                 }
+
                                 &:hover {
                                     transition: all 0.5s;
+
                                     img {
                                         transition: 0.5s;
                                         margin-left: 10px;
                                         filter: invert(0%);
                                     }
+
                                     color: $black-main-color;
                                     background-color: $white-main-color;
                                     box-shadow: 5px 2px 10px gray;
@@ -195,26 +232,33 @@
                 }
             }
         }
+
         #contact-discount {
             background-size: cover;
+
             .container {
                 width: $container-width;
+
                 .contact-wishlist {
                     background-color: $white-main-color;
                     padding: 50px;
                     margin: 15rem auto;
                     width: 60%;
+
                     h2 {
                         font-size: 40px;
                         font-weight: 700;
                         margin: 4rem auto;
                     }
+
                     .wishlist {
                         margin: 4rem auto;
+
                         a {
                             color: $black-main-color;
                             font-size: 16px;
                             font-weight: 700;
+
                             img {
                                 margin-left: 5px;
                             }
@@ -223,27 +267,33 @@
                 }
             }
         }
+
         #contact-footer {
             #contact-store {
                 margin: 15rem auto;
+
                 .store {
                     display: flex;
                     align-items: center;
+
                     .img {
                         img {
                             max-width: 100%;
                             border-radius: 70%;
                         }
                     }
+
                     .wishlist {
                         a {
                             color: $black-main-color;
                             font-size: 15px;
                             font-weight: 700;
+
                             img {
                                 margin-left: 5px;
                             }
                         }
+
                         &:hover {
                             img {
                                 margin-left: 10px;
@@ -252,6 +302,7 @@
                         }
                     }
                 }
+
                 .contact-time {
                     height: 18rem;
                     font-size: 18px;
@@ -259,6 +310,7 @@
                     background-color: $black-main-color;
                     color: $white-main-color;
                     padding: 3rem 4rem;
+
                     span {
                         img {
                             width: 60%;
@@ -266,6 +318,7 @@
                     }
                 }
             }
+
             .footer {
                 width: $container-width;
                 padding: 5rem 0rem;
