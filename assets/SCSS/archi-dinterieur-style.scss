@@ -6,17 +6,20 @@ Author URI: https://github.com/rflowturing
 Version: 1.0
 */
 
+
 /***** Diaporama + titre *******/
 body {
     overflow-x: hidden;
 }
 
 .content {
+
     max-width: 1500px;
     margin: 0px auto;
     padding: 0px 70px;
 
     .container.body {
+
         width: 100%;
         padding: 0px;
 
@@ -35,6 +38,7 @@ body {
             padding-left: 0px;
             padding-top: 167px;
             margin-bottom: 100px;
+
 
             .ligne {
                 padding-left: 0px;
@@ -119,7 +123,9 @@ body {
                 word-spacing: 0.5px;
             }
         }
+
     }
+
 
     .etude-archi {
         height: 43em;
@@ -156,6 +162,7 @@ body {
             }
 
             p {
+
                 font-size: 16px;
                 font-weight: 300;
                 line-height: 2;
@@ -165,10 +172,14 @@ body {
                 margin: 0;
                 margin-top: 0px;
                 margin-bottom: 0px;
+
+
             }
+
         }
 
         .etude-archi-d {
+
             background-color: black;
             height: inherit;
             position: relative;
@@ -197,7 +208,9 @@ body {
                         line-height: 2;
                     }
                 }
+
             }
+
         }
     }
 
@@ -217,6 +230,7 @@ body {
             padding: 83px 17% 0px 9%;
 
             p {
+
                 line-height: 2;
                 font-weight: 300;
                 margin-bottom: 20px;
@@ -225,6 +239,7 @@ body {
                 word-spacing: 0px;
                 margin: 0;
                 margin-top: 0px;
+
             }
         }
 
@@ -237,6 +252,7 @@ body {
         h2 {
             margin-bottom: 55px;
             font-size: 16px;
+
         }
     }
 
@@ -263,9 +279,11 @@ body {
         .tissus-image {
             width: 100%;
             height: 100%;
+
         }
 
         .titre-sstitre-gauche {
+
             padding: 0px;
             padding-right: 10px;
 
@@ -299,6 +317,7 @@ body {
         }
 
         .liste-droite {
+
             position: relative;
             font-size: 14px;
             font-weight: 300;
@@ -313,6 +332,11 @@ body {
             letter-spacing: 1.2px;
             word-spacing: 0px;
             margin-top: 119px;
+
         }
+
+
     }
+
+
 }

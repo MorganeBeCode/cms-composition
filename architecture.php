@@ -2,7 +2,6 @@
 /**
  * Template Name: Architecte
  */
-
  ?>
 
 <?php get_header(); ?> 
