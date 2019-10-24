@@ -27,9 +27,8 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <header id="contact-header">
         <?php get_header(); ?>
-    </header>
+
     <section id="contact-info">
         <div class="trait"></div>
         <div class="container contact-container">

@@ -48,13 +48,10 @@ $container-width: 75%;
   .wishlist {
     background-color: white;
     color: black;
-    display: flex;
-    width: 75%;
-    height: 100%;
+    padding: 10px 10px 10px 20px;
     .wishlist-txt {
       text-align: center;
       align-self: center;
-      padding-left: 15px;
       font: {
         size: 14px;
         weight: bold;

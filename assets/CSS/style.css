@@ -35,13 +35,10 @@ Version: 1.0
   .header .wishlist {
     background-color: white;
     color: black;
-    display: flex;
-    width: 75%;
-    height: 100%; }
+    padding: 10px 10px 10px 20px; }
     .header .wishlist .wishlist-txt {
       text-align: center;
       align-self: center;
-      padding-left: 15px;
       font-size: 14px;
       font-weight: bold; }
     .header .wishlist .bullet-icon {
