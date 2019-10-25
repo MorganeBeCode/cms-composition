@@ -4,7 +4,7 @@
     <?php wp_head(); ?>
 
 <body>
-<?php get_header();?>
+<?php get_template_part( 'header2' )?>
 
 
 
