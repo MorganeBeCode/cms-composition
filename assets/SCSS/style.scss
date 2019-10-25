@@ -24,10 +24,62 @@ $container-width: 75%;
     height: 135px;
     background: black;
 }
-
+.background2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+  height: 135px;
+  background: white;
+}
 .header {
-    width: 75%;
-    margin-top: 1%;
+  width: 75%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  a {
+    color: white;
+    font-weight: bolder;
+  }
+
+  li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 3%;
+  }
+
+  .logo-icon {
+    width: 80%;
+    height: auto;
+  }
+
+  .wishlist2 {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 20px;
+  }
+  .wishlist {
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 20px;
+  }
+  .wishlist-txt {
+    text-align: center;
+    align-self: center;
+    font: {
+      size: 14px;
+      weight: bold;
+    }
+  }
+  .bullet-icon {
+    width: 15px;
+    margin-left: 15px;
+  }
+
+  .custom-menu-class {
     display: flex;
     justify-content: space-between;
     color: white;
@@ -101,6 +153,40 @@ $container-width: 75%;
             }
         }
     }
+  }
+  .extra-menu-class {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    min-height: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    a {
+      color: black;
+    }
+    .menu {
+      width: 100%;
+      margin: -5px;
+      padding: 0;
+
+      .home {
+        a {
+          border-bottom: 5px solid black;
+          padding-bottom: 5px;
+
+          img {
+            margin-bottom: 5px;
+            padding-bottom: 3px;
+          }
+        }
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 /*************FOOTER STYLE **************/
