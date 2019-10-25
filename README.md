@@ -25,7 +25,9 @@
 - Responsive sur tablette uniquement
 
 ### Architecte d'intérieur :
-- 
+- Quasiment identique à l'original
+- Deux fields repeaters fonctionnels
+- Pas de carousel
 - Pas responsif
 
 ### A propos :
