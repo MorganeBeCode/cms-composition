@@ -13,7 +13,7 @@ Version: 1.0
   width: 100%;
   display: inline-block;
   height: 135px;
-  background: #fffcfc; }
+  background: black; }
 
 .header {
   width: 75%;
@@ -64,6 +64,36 @@ Version: 1.0
           padding-bottom: 3px; }
       .header .custom-menu-class .menu a:hover {
         text-decoration: none; }
+
+/*************FOOTER STYLE **************/
+#footer {
+  width: 75%; }
+  #footer #contact-store {
+    margin: 15rem auto; }
+    #footer #contact-store .store {
+      display: flex;
+      align-items: center; }
+      #footer #contact-store .store .img img {
+        max-width: 100%;
+        border-radius: 70%; }
+      #footer #contact-store .store .wishlist a {
+        color: black;
+        font-size: 15px;
+        font-weight: 700; }
+        #footer #contact-store .store .wishlist a img {
+          margin-left: 5px; }
+      #footer #contact-store .store .wishlist:hover img {
+        margin-left: 10px;
+        transition: all 0.5s; }
+    #footer #contact-store .contact-time {
+      height: 18rem;
+      font-size: 18px;
+      line-height: 2;
+      background-color: black;
+      color: white;
+      padding: 3rem 4rem; }
+      #footer #contact-store .contact-time span img {
+        width: 60%; }
 
 /*************FOOTER STYLE **************/
 #footer {
@@ -319,7 +349,6 @@ Version: 1.0
         letter-spacing: 0.3px;
         word-spacing: 0.5px; }
     .intro-s .row .left .down {
-      background-color: white;
       width: 88%;
       height: 100%;
       padding-left: 28%;
