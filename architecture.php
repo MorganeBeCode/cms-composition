@@ -103,8 +103,19 @@
 			<?php endif; ?>		
 			
 		</div> <!--fermeture col-lg-12-->
-		
+		<div class="imgLien-s">
+	<div class="image col-lg-12">
+		<img src="<?php echo get_field('tissus_&_artisanat_image')['sizes']['wpm_taille_4']; ?>">
+		<div class="lien">
+			
+			<a href="<?php echo get_field('tissus_&_artisanat_bouton_lien')?>"><h2><?php echo get_field('tissus_&_artisanat_bouton_titre')?></h2><p><?php echo get_field('tissus_&_artisanat_bouton_titre-lien')?><img class="test" src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="flèche"></p></a>
+		</div>
+	</div>
+
+</div>
 	</div>	<!--fermeture content-->	
+
+
 
 
 

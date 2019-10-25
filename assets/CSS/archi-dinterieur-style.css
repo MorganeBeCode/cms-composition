@@ -233,3 +233,23 @@ body {
       letter-spacing: 1.2px;
       word-spacing: 0px;
       margin-top: 119px; }
+  .content .imgLien-s {
+    max-width: 100%; }
+    .content .imgLien-s .image {
+      position: relative; }
+      .content .imgLien-s .image img {
+        width: 100%; }
+      .content .imgLien-s .image .lien {
+        width: 80%;
+        height: 60%;
+        background-color: #881717; }
+        .content .imgLien-s .image .lien a {
+          position: absolute;
+          color: black;
+          left: 165px;
+          bottom: 103px; }
+          .content .imgLien-s .image .lien a h2 {
+            text-decoration: none; }
+          .content .imgLien-s .image .lien a p img {
+            width: 20px;
+            margin-left: 20px; }
