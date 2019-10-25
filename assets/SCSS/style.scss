@@ -1,4 +1,5 @@
 /********** HEADER STYLE**********/
+
 /*
 Theme Name: cms-composition
 Description: premier wordpress 
@@ -10,6 +11,10 @@ $black-main-color: black;
 $white-main-color: white;
 $container-width: 75%;
 
+$black-main-color: black;
+$white-main-color: white;
+$container-width: 75%;
+
 .background {
     position: absolute;
     left: 0;
@@ -17,112 +22,142 @@ $container-width: 75%;
     width: 100%;
     display: inline-block;
     height: 135px;
-    background: rgb(255, 252, 252);
+    background: black;
 }
 
 .header {
+    width: 75%;
     margin-top: 1%;
     display: flex;
     justify-content: space-between;
+    color: white;
 
     a {
-        color: black;
+        color: white;
         font-weight: bolder;
     }
-
-
 
     li {
         display: inline;
         list-style-type: none;
         text-align: center;
         margin-right: 3%;
-
     }
 
-    .logo {
-
-
-        ul {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            height: 100%;
-            font-size: 20px;
-            font-weight: bold;
-            margin-left: -40px;
-
-
-            .title-mp {
-                margin-left: -5px;
-            }
-        }
-
+    .logo-icon {
+        width: 80%;
+        height: auto;
     }
 
     .wishlist {
-        background-color: black;
-        color: white;
-        display: flex;
-        height: 100%;
+        background-color: white;
+        color: black;
+        padding: 10px 10px 10px 20px;
 
-        ul {
-            display: flex;
-            justify-content: center;
-            margin: auto 0;
+        .wishlist-txt {
+            text-align: center;
+            align-self: center;
+
+            font: {
+                size: 14px;
+                weight: bold;
+            }
         }
 
         .bullet-icon {
-
-            width: 20px;
-            margin-left: 10px;
-
+            width: 15px;
+            margin-left: 15px;
         }
     }
-
-
 
     .custom-menu-class {
         display: flex;
         align-items: center;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
         min-height: 100%;
         text-transform: uppercase;
-
+        text-align: right;
 
         .menu {
             width: 100%;
             margin: -5px;
+            padding: 0;
 
             .home {
-
                 a {
-                    border-bottom: 5px solid black;
+                    border-bottom: 5px solid white;
                     padding-bottom: 5px;
 
                     img {
                         margin-bottom: 5px;
                         padding-bottom: 3px;
                     }
-
                 }
             }
-
 
             a:hover {
                 text-decoration: none;
             }
-
         }
-
     }
-
 }
 
+/*************FOOTER STYLE **************/
 
+#footer {
+    width: $container-width;
 
+    #contact-store {
+        margin: 15rem auto;
 
+        .store {
+            display: flex;
+            align-items: center;
+
+            .img {
+                img {
+                    max-width: 100%;
+                    border-radius: 70%;
+                }
+            }
+
+            .wishlist {
+                a {
+                    color: $black-main-color;
+                    font-size: 15px;
+                    font-weight: 700;
+
+                    img {
+                        margin-left: 5px;
+                    }
+                }
+
+                &:hover {
+                    img {
+                        margin-left: 10px;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+
+        .contact-time {
+            height: 18rem;
+            font-size: 18px;
+            line-height: 2;
+            background-color: $black-main-color;
+            color: $white-main-color;
+            padding: 3rem 4rem;
+
+            span {
+                img {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
 
 /*************FOOTER STYLE **************/
 
@@ -181,8 +216,6 @@ $container-width: 75%;
 }
 
 .footer.container {
-
-
     margin: auto;
     padding: 0px 30px;
     display: flex;
@@ -199,8 +232,6 @@ $container-width: 75%;
     }
 
     .map {
-
-
         h5 {
             font-size: 32px;
             font-weight: 700;
@@ -222,12 +253,10 @@ $container-width: 75%;
             img {
                 margin-left: 15px;
             }
-
         }
     }
 
     .adress {
-
         line-height: 2;
 
         p {
@@ -237,13 +266,11 @@ $container-width: 75%;
 
             img {
                 margin-right: 10px;
-
             }
         }
     }
 
     .sm-icons {
-
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -251,7 +278,6 @@ $container-width: 75%;
         .justIcons {
             display: flex;
             justify-content: flex-end;
-
 
             span {
                 width: 53px;
@@ -263,8 +289,6 @@ $container-width: 75%;
                 align-items: center;
                 justify-content: center;
             }
-
-
         }
 
         p {
@@ -275,13 +299,9 @@ $container-width: 75%;
                 color: black;
                 font-size: 11px;
                 font-weight: 400px;
-
             }
-
         }
-
     }
-
 }
 
 /*************Front-page**************/
@@ -296,8 +316,6 @@ sans-serif;
     margin-top: 20px;
     margin-bottom: 300px;
 
-
-
     div {
         margin: 0;
         padding: 0;
@@ -305,20 +323,15 @@ sans-serif;
         .image-g {
             width: 100%;
             z-index: 1;
-
         }
 
         .image-d {
             width: 100%;
-
         }
     }
 }
 
-
-
 .img-g {
-
     position: relative;
 }
 
@@ -343,8 +356,6 @@ sans-serif;
     text-decoration: none;
     color: black;
     transform: translateY(-30px);
-
-
 }
 
 .survol-g:hover>.sous-titre,
@@ -359,7 +370,6 @@ sans-serif;
 }
 
 // -------------------survol droite------------
-
 .survol-d {
     position: absolute;
     text-decoration: none;
@@ -372,7 +382,6 @@ sans-serif;
     box-shadow: 0px 2px 10px 3px rgba(14, 0, 0, 0.1);
     transition: height 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-
 }
 
 .survol-d:hover {
@@ -479,13 +488,11 @@ sans-serif;
     width: 100%;
 
     .row {
-
         .left {
             margin: 0;
             padding: 0;
 
             .top {
-
                 width: 88%;
                 height: 400px;
                 margin-top: 80px;
@@ -503,18 +510,13 @@ sans-serif;
                     letter-spacing: 0.3px;
                     word-spacing: 0.5px;
                 }
-
-
             }
 
             .down {
-
-                background-color: rgb(255, 255, 255);
                 width: 88%;
                 height: 100%;
                 padding-left: 28%;
                 padding-top: 20px;
-
 
                 h2 {
                     font-family: $proxi;
@@ -523,7 +525,6 @@ sans-serif;
                     width: 85%;
                     margin-bottom: 40px;
                     color: black;
-
                 }
 
                 p {
@@ -549,26 +550,18 @@ sans-serif;
 
                         img {
                             margin-left: 20px;
-
                         }
                     }
-
-
                 }
             }
-
-
         }
 
         .right {
-
             margin: 0;
             padding: 0;
             margin-left: 40px;
 
-
             img {
-
                 max-width: 100%;
                 max-height: 100%;
             }
@@ -594,8 +587,6 @@ sans-serif;
             height: 700px;
             padding-left: 10%;
 
-
-
             img {
                 margin-top: 20%;
                 margin-bottom: 5%;
@@ -611,10 +602,7 @@ sans-serif;
             }
 
             a {
-
-
                 p {
-
                     color: black;
                     font-size: 18px;
                     font-weight: 700;
@@ -626,7 +614,6 @@ sans-serif;
                     }
                 }
             }
-
         }
     }
 }
@@ -669,16 +656,10 @@ sans-serif;
             letter-spacing: 0.3px;
             word-spacing: 0.5px;
             max-width: 70%;
-
         }
-
-
-
-
 
         a {
             margin-top: 60px;
-
 
             p {
                 color: black;
@@ -1105,3 +1086,4 @@ sans-serif;
 }
 
 // Mobille : 640_________ .
+// Tablette : ____________ .

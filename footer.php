@@ -1,23 +1,23 @@
 <?php wp_footer(); ?>
 <div id="footer" class="container">
-<section id="contact-store" class="row">
-<div class="col-lg-7 store">
-<div class="img col-lg-4">
-<img src="<?php bloginfo('template_url'); ?>/assets/img/jpg/1500x1250_02.jpg" alt="image">
-</div>
-<div class="wishlist col-lg-8">
-<a href="#">Tissus et habillage maison <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="icon"></a>
-</div>
-</div>
-<div class="col-lg-5 contact-time">
-<span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/time-clock.svg" alt="icon"></span>
-<?php if (have_rows('info')) : ?>
-<?php while (have_rows('info')) : the_row(); ?>
-<p class="col-lg-10"> <b>Horaires</b> <br /><?php the_sub_field('times'); ?></p>
-<?php endwhile; ?>
-<?php endif; ?>
-</div>
-</section>
+    <section id="contact-store" class="row">
+        <div class="col-lg-7 store">
+            <div class="img col-lg-4">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/jpg/1500x1250_02.jpg" alt="image">
+            </div>
+            <div class="wishlist col-lg-8">
+                <a href="#">Tissus et habillage maison <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="icon"></a>
+            </div>
+        </div>
+        <div class="col-lg-5 contact-time">
+            <span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/time-clock.svg" alt="icon"></span>
+            <?php if (have_rows('info')) : ?>
+                <?php while (have_rows('info')) : the_row(); ?>
+                    <p class="col-lg-10"> <b>Horaires</b> <br /><?php the_sub_field('times'); ?></p>
+                <?php endwhile; ?>
+            <?php endif; ?>
+        </div>
+    </section>
 </div>
 <div class="footer container">
     <div class="map col-lg-4">

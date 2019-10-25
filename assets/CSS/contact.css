@@ -144,7 +144,9 @@ body #contact-question-form {
 body #contact-discount {
   background-size: cover; }
   body #contact-discount .container {
-    width: 75%; }
+    width: 75%;
+    display: flex;
+    align-items: center; }
     body #contact-discount .container .contact-wishlist {
       background-color: white;
       padding: 50px;
@@ -163,34 +165,38 @@ body #contact-discount {
           body #contact-discount .container .contact-wishlist .wishlist a img {
             margin-left: 5px; }
 
-body #contact-footer #contact-store {
-  margin: 15rem auto; }
-  body #contact-footer #contact-store .store {
-    display: flex;
-    align-items: center; }
-    body #contact-footer #contact-store .store .img img {
-      max-width: 100%;
-      border-radius: 70%; }
-    body #contact-footer #contact-store .store .wishlist a {
-      color: black;
-      font-size: 15px;
-      font-weight: 700; }
-      body #contact-footer #contact-store .store .wishlist a img {
-        margin-left: 5px; }
-    body #contact-footer #contact-store .store .wishlist:hover img {
-      margin-left: 10px;
-      transition: all 0.5s; }
-  body #contact-footer #contact-store .contact-time {
-    height: 18rem;
-    font-size: 18px;
-    line-height: 2;
-    background-color: black;
-    color: white;
-    padding: 3rem 4rem; }
-    body #contact-footer #contact-store .contact-time span img {
-      width: 60%; }
+body #contact-footer #footer {
+  display: none; }
 
-body #contact-footer .footer {
-  width: 75%;
-  padding: 5rem 0rem;
-  border-top: 1px solid #ccc; }
+body #contact-footer .container {
+  width: 75%; }
+  body #contact-footer .container #contact-store {
+    margin: 15rem auto; }
+    body #contact-footer .container #contact-store .store {
+      display: flex;
+      align-items: center; }
+      body #contact-footer .container #contact-store .store .img img {
+        max-width: 100%;
+        border-radius: 70%; }
+      body #contact-footer .container #contact-store .store .wishlist a {
+        color: black;
+        font-size: 15px;
+        font-weight: 700; }
+        body #contact-footer .container #contact-store .store .wishlist a img {
+          margin-left: 5px; }
+      body #contact-footer .container #contact-store .store .wishlist:hover img {
+        margin-left: 10px;
+        transition: all 0.5s; }
+    body #contact-footer .container #contact-store .contact-time {
+      height: 18rem;
+      font-size: 18px;
+      line-height: 2;
+      background-color: black;
+      color: white;
+      padding: 5rem; }
+      body #contact-footer .container #contact-store .contact-time span img {
+        width: 60%; }
+  body #contact-footer .container .footer {
+    width: 75%;
+    padding: 5rem 0rem;
+    border-top: 1px solid #ccc; }

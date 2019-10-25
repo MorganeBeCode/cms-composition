@@ -27,9 +27,8 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <header id="contact-header">
         <?php get_header(); ?>
-    </header>
+
     <section id="contact-info">
         <div class="trait"></div>
         <div class="container contact-container">
@@ -121,7 +120,7 @@
     <footer id="contact-footer">
         <div class="container">
             <section id="contact-store" class="row">
-                <div class="col-lg-7 store">
+                <div class="col-lg-8 store">
                     <div class="img col-lg-4">
                         <img src="<?php bloginfo('template_url'); ?>/assets/img/jpg/1500x1250_02.jpg" alt="image">
                     </div>
@@ -129,7 +128,7 @@
                         <a href="#">Tissus et habillage maison <img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="icon"></a>
                     </div>
                 </div>
-                <div class="col-lg-5 contact-time">
+                <div class="col-lg-4 contact-time">
                     <span class="col-lg-2"><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/time-clock.svg" alt="icon"></span>
                     <?php if (have_rows('info')) : ?>
                         <?php while (have_rows('info')) : the_row(); ?>

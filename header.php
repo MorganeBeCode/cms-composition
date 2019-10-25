@@ -22,25 +22,22 @@
 
     <div class="background"></div>
     <div class="header container">
-        <div class="logo col-lg-3">
-            <ul>
-                <li> <a href="#"><img class="logo-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/logo-small.svg" alt="home"></a></li>
-                <li class="title-mp"> MPOSITION</li>
-            </ul>
+        <div class="col-lg-2 p-0">
+            <a href="#"><img class="logo-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/logo-full-white.svg" alt="home"></a>
         </div>
-
-        <?php
-        wp_nav_menu(array(
+        <div class="col-lg-8 p-0">
+            <?php
+            wp_nav_menu(array(
             'container' => 'nav',
-            'container_class' => 'custom-menu-class col-lg-7'
-        ));
-        ?>
-
-        <a href="#" class="col-lg-2">
-            <div class="wishlist">
-                <ul class="col-lg-12">
-                    <li>Wishlist <img class="bullet-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/bullet-list.svg" alt="home"></li>
-                </ul>
-            </div>
-        </a>
+            'container_class' => 'custom-menu-class'
+            ));
+            ?>
+        </div>
+        <div class="col-lg-2 p-0">
+            <a href="#">
+                <div class="wishlist">
+                    <span class="wishlist-txt">Wishlist</span> <img class="bullet-icon" src="<?php bloginfo('template_url'); ?>/assets/img/svg/bullet-list-black.svg" alt="home">
+                </div>
+            </a>
+        </div>
     </div>
