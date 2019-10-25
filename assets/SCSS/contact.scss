@@ -70,12 +70,15 @@ body {
       background: rgba(255, 255, 255, 0.2);
       position: absolute;
       left: 0rem;
-      top: 19rem;
+      top: 24%;
     }
     .contact-container {
       color: $white-main-color;
       width: $container-contact-width;
       position: relative;
+      @media (min-width: 768px) and (max-width: 1024px) {
+        // width: $container-contact-width + 10%;
+      }
       > div {
         margin-top: 15rem;
       }
@@ -91,9 +94,18 @@ body {
         font-size: 18px;
         line-height: 2;
         margin-top: 5rem;
+        @media (min-width: 768px) and (max-width: 1024px) {
+          margin-top: 0;
+        }
         span {
+          @media (min-width: 768px) and (max-width: 1024px) {
+            //padding: 0;
+          }
           img {
             width: 60%;
+            @media (min-width: 768px) and (max-width: 1024px) {
+              max-width: 100%;
+            }
           }
         }
       }
@@ -101,6 +113,11 @@ body {
         span {
           img {
             filter: invert(100%);
+          }
+          .route {
+            @media (min-width: 768px) and (max-width: 1024px) {
+              max-width: 5%;
+            }
           }
         }
       }
@@ -152,6 +169,21 @@ body {
       }
       .contact-form {
         form {
+          > div {
+            margin: 2rem;
+            height: 7rem;
+            input {
+              height: 100%;
+              border: 0;
+            }
+          }
+          div:nth-of-type(5) {
+            height: 10rem;
+            textarea {
+              height: 100%;
+              border: 0;
+            }
+          }
           .send-btn {
             height: 15rem;
             display: flex;
