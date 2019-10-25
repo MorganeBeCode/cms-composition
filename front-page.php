@@ -4,7 +4,7 @@
     <?php wp_head(); ?>
 
 <body>
-<?php get_header();?>
+<?php get_template_part( 'header2' )?>
 
 
 
@@ -72,7 +72,7 @@
 
 <div class="intro-s container">
     <div class="row">
-        <div class="left col-lg-6 col-md-6">
+        <div class="left col-lg-6">
             <div class="top">
                 <p><?php echo get_field('intro_texte')?></p>
             </div>
@@ -87,7 +87,7 @@
         
 
         </div>
-        <div class="right col-lg-4 col-md-6">
+        <div class="right col-lg-4">
             <img class="image-d" src="<?php echo get_field('intro_image')['sizes']['wpm_taille_2']; ?>">
         </div>
     </div>  
@@ -110,11 +110,11 @@
 
 <div class="tissus-s container">
 
-    <div class="img-t col-lg-6">
+    <div class="img-t col-lg-6 col-12">
         <img src="<?php echo get_field('tissus_image')['sizes']['wpm_taille_3']; ?>">
         
     </div>
-    <div class="right col-lg-6">
+    <div class="right col-lg-6 col-12">
         <h2><?php echo get_field('tissus_titre')?></h2>
         <p><?php echo get_field('tissus_wysiwyg')?></p>
         <a href="<?php echo get_field('tissus_bouton_lien')?>"><p><?php echo get_field('tissus_bouton_titre')?><img src="<?php bloginfo('template_url'); ?>/assets/img/svg/Group 1300.svg" alt="flèche"></p></a>

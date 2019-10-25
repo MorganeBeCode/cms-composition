@@ -4,6 +4,7 @@
 add_image_size('wpm_taille_1', 1500, 1250);
 add_image_size('wpm_taille_2', 1000, 1600);
 add_image_size('wpm_taille_3', 1800, 1200);
+add_image_size('wpm_taille_4', 2600, 700);
 
 // enlever l'éditeur de texte Gutenberg
 // for posts
