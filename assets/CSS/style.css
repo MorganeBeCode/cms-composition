@@ -15,6 +15,15 @@ Version: 1.0
   height: 135px;
   background: black; }
 
+.background2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+  height: 135px;
+  background: white; }
+
 .header {
   width: 75%;
   margin-top: 1%;
@@ -32,18 +41,22 @@ Version: 1.0
   .header .logo-icon {
     width: 80%;
     height: auto; }
+  .header .wishlist2 {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 20px; }
   .header .wishlist {
     background-color: white;
     color: black;
     padding: 10px 10px 10px 20px; }
-    .header .wishlist .wishlist-txt {
-      text-align: center;
-      align-self: center;
-      font-size: 14px;
-      font-weight: bold; }
-    .header .wishlist .bullet-icon {
-      width: 15px;
-      margin-left: 15px; }
+  .header .wishlist-txt {
+    text-align: center;
+    align-self: center;
+    font-size: 14px;
+    font-weight: bold; }
+  .header .bullet-icon {
+    width: 15px;
+    margin-left: 15px; }
   .header .custom-menu-class {
     display: flex;
     align-items: center;
@@ -63,6 +76,28 @@ Version: 1.0
           margin-bottom: 5px;
           padding-bottom: 3px; }
       .header .custom-menu-class .menu a:hover {
+        text-decoration: none; }
+  .header .extra-menu-class {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    min-height: 100%;
+    text-transform: uppercase;
+    text-align: right; }
+    .header .extra-menu-class a {
+      color: black; }
+    .header .extra-menu-class .menu {
+      width: 100%;
+      margin: -5px;
+      padding: 0; }
+      .header .extra-menu-class .menu .home a {
+        border-bottom: 5px solid black;
+        padding-bottom: 5px; }
+        .header .extra-menu-class .menu .home a img {
+          margin-bottom: 5px;
+          padding-bottom: 3px; }
+      .header .extra-menu-class .menu a:hover {
         text-decoration: none; }
 
 /*************FOOTER STYLE **************/
