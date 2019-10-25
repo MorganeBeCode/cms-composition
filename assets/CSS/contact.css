@@ -1,0 +1,202 @@
+body #contact-header {
+  background-color: black;
+  height: 15rem; }
+  body #contact-header .header .custom-menu-class .menu .home a {
+    border-bottom: 0px solid black;
+    justify-content: center; }
+    body #contact-header .header .custom-menu-class .menu .home a img {
+      width: 15%; }
+  body #contact-header .header {
+    width: 75%;
+    height: 95%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #ccc;
+    filter: invert(100%); }
+    body #contact-header .header .logo-icon,
+    body #contact-header .header .title-mp {
+      font-size: 25px; }
+    body #contact-header .header a {
+      display: flex;
+      justify-content: flex-end; }
+    body #contact-header .header .custom-menu-class .menu {
+      display: flex;
+      justify-content: center;
+      height: 100%; }
+      body #contact-header .header .custom-menu-class .menu li {
+        width: 25em;
+        margin: auto 0.3rem;
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px; }
+        body #contact-header .header .custom-menu-class .menu li:hover {
+          border-bottom: 4px solid black; }
+      body #contact-header .header .custom-menu-class .menu li:nth-child(3) {
+        min-width: 25rem; }
+      body #contact-header .header .custom-menu-class .menu .contact {
+        border-bottom: 3px solid black; }
+    body #contact-header .header .wishlist {
+      font-size: 20px;
+      font-weight: 400;
+      width: 70%; }
+
+body #contact-info {
+  background-color: black;
+  height: 75rem;
+  position: relative; }
+  body #contact-info .trait {
+    height: 1px;
+    width: 11%;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 0rem;
+    top: 19rem; }
+  body #contact-info .contact-container {
+    color: white;
+    width: 75%;
+    position: relative; }
+    body #contact-info .contact-container > div {
+      margin-top: 15rem; }
+    body #contact-info .contact-container .contact-title h1 {
+      color: white;
+      font-size: 40px;
+      font-weight: 100; }
+    body #contact-info .contact-container .contact-address,
+    body #contact-info .contact-container .contact-time {
+      font-size: 18px;
+      line-height: 2;
+      margin-top: 5rem; }
+      body #contact-info .contact-container .contact-address span img,
+      body #contact-info .contact-container .contact-time span img {
+        width: 60%; }
+    body #contact-info .contact-container .contact-address span img {
+      filter: invert(100%); }
+    body #contact-info .contact-container .contact-route {
+      font-size: 20px;
+      color: black;
+      height: 25rem;
+      display: flex;
+      align-items: flex-end; }
+      body #contact-info .contact-container .contact-route a {
+        color: white; }
+        body #contact-info .contact-container .contact-route a img {
+          filter: invert(100%); }
+        body #contact-info .contact-container .contact-route a:hover img {
+          transition: all 0.5s;
+          margin-left: 10px; }
+    body #contact-info .contact-container .contact-map {
+      z-index: 3;
+      background-color: white;
+      height: 40rem;
+      box-shadow: 5px 2px 10px gray;
+      position: relative; }
+
+body #contact-question-form {
+  margin: 25rem auto; }
+  body #contact-question-form .container {
+    width: 75%; }
+    body #contact-question-form .container .contact-question h1 {
+      font-size: 40px;
+      font-weight: 700;
+      color: black; }
+    body #contact-question-form .container .contact-question p {
+      color: gray;
+      line-height: 5;
+      font-size: 20px; }
+    body #contact-question-form .container .contact-form form .send-btn {
+      height: 15rem;
+      display: flex;
+      align-items: flex-end;
+      border-top: 1px solid #ccc;
+      position: relative; }
+      body #contact-question-form .container .contact-form form .send-btn span {
+        color: gray;
+        font-size: 15px;
+        position: absolute;
+        top: 20px;
+        right: 10px; }
+      body #contact-question-form .container .contact-form form .send-btn button {
+        background-color: black;
+        color: white;
+        height: 8rem;
+        width: 25rem;
+        border: 0;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 4rem;
+        font-weight: 700; }
+        body #contact-question-form .container .contact-form form .send-btn button img {
+          filter: invert(100%);
+          margin-left: 5px; }
+        body #contact-question-form .container .contact-form form .send-btn button:hover {
+          transition: all 0.5s;
+          color: black;
+          background-color: white;
+          box-shadow: 5px 2px 10px gray; }
+          body #contact-question-form .container .contact-form form .send-btn button:hover img {
+            transition: 0.5s;
+            margin-left: 10px;
+            filter: invert(0%); }
+
+body #contact-discount {
+  background-size: cover; }
+  body #contact-discount .container {
+    width: 75%;
+    display: flex;
+    align-items: center; }
+    body #contact-discount .container .contact-wishlist {
+      background-color: white;
+      padding: 50px;
+      margin: 15rem auto;
+      width: 60%; }
+      body #contact-discount .container .contact-wishlist h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 4rem auto; }
+      body #contact-discount .container .contact-wishlist .wishlist {
+        margin: 4rem auto; }
+        body #contact-discount .container .contact-wishlist .wishlist a {
+          color: black;
+          font-size: 16px;
+          font-weight: 700; }
+          body #contact-discount .container .contact-wishlist .wishlist a img {
+            margin-left: 5px; }
+
+body #contact-footer #footer {
+  display: none; }
+
+body #contact-footer .container {
+  width: 75%; }
+  body #contact-footer .container #contact-store {
+    margin: 15rem auto; }
+    body #contact-footer .container #contact-store .store {
+      display: flex;
+      align-items: center; }
+      body #contact-footer .container #contact-store .store .img img {
+        max-width: 100%;
+        border-radius: 70%; }
+      body #contact-footer .container #contact-store .store .wishlist a {
+        color: black;
+        font-size: 15px;
+        font-weight: 700; }
+        body #contact-footer .container #contact-store .store .wishlist a img {
+          margin-left: 5px; }
+      body #contact-footer .container #contact-store .store .wishlist:hover img {
+        margin-left: 10px;
+        transition: all 0.5s; }
+    body #contact-footer .container #contact-store .contact-time {
+      height: 18rem;
+      font-size: 18px;
+      line-height: 2;
+      background-color: black;
+      color: white;
+      padding: 5rem; }
+      body #contact-footer .container #contact-store .contact-time span img {
+        width: 60%; }
+  body #contact-footer .container .footer {
+    width: 75%;
+    padding: 5rem 0rem;
+    border-top: 1px solid #ccc; }

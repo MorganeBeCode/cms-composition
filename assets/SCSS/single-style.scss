@@ -5,15 +5,17 @@ body {
     weight: 100;
     size: 16px;
   }
+
   color: black;
 }
+
 .single-container {
   overflow: hidden;
   width: 65%;
   margin: auto;
 
   a {
-  color:black;
+    color: black;
   }
 
   .row {
@@ -30,6 +32,7 @@ body {
       size: 40px;
       weight: 100;
     }
+
     margin-bottom: 50px;
   }
 

@@ -17,9 +17,11 @@ Version: 1.0
 }
 
 .header {
+  width: 75%;
   margin-top: 1%;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
 }
 
 .header a {
@@ -93,8 +95,83 @@ Version: 1.0
 .header .custom-menu-class .menu a:hover {
   text-decoration: none;
 }
+=======
+  color: white; }
+  .header a {
+    color: white;
+    font-weight: bolder; }
+  .header li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 3%; }
+  .header .logo-icon {
+    width: 80%;
+    height: auto; }
+  .header .wishlist {
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 20px; }
+    .header .wishlist .wishlist-txt {
+      text-align: center;
+      align-self: center;
+      font-size: 14px;
+      font-weight: bold; }
+    .header .wishlist .bullet-icon {
+      width: 15px;
+      margin-left: 15px; }
+  .header .custom-menu-class {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    min-height: 100%;
+    text-transform: uppercase;
+    text-align: right; }
+    .header .custom-menu-class .menu {
+      width: 100%;
+      margin: -5px;
+      padding: 0; }
+      .header .custom-menu-class .menu .home a {
+        border-bottom: 5px solid white;
+        padding-bottom: 5px; }
+        .header .custom-menu-class .menu .home a img {
+          margin-bottom: 5px;
+          padding-bottom: 3px; }
+      .header .custom-menu-class .menu a:hover {
+        text-decoration: none; }
+>>>>>>> a036ed36861b76db680966a76b4ac511059cbe5d
 
 /*************FOOTER STYLE **************/
+#footer {
+  width: 75%; }
+  #footer #contact-store {
+    margin: 15rem auto; }
+    #footer #contact-store .store {
+      display: flex;
+      align-items: center; }
+      #footer #contact-store .store .img img {
+        max-width: 100%;
+        border-radius: 70%; }
+      #footer #contact-store .store .wishlist a {
+        color: black;
+        font-size: 15px;
+        font-weight: 700; }
+        #footer #contact-store .store .wishlist a img {
+          margin-left: 5px; }
+      #footer #contact-store .store .wishlist:hover img {
+        margin-left: 10px;
+        transition: all 0.5s; }
+    #footer #contact-store .contact-time {
+      height: 18rem;
+      font-size: 18px;
+      line-height: 2;
+      background-color: black;
+      color: white;
+      padding: 3rem 4rem; }
+      #footer #contact-store .contact-time span img {
+        width: 60%; }
+
 .footer.container {
   margin: auto;
   padding: 0px 30px;

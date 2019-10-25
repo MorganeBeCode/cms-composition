@@ -5,6 +5,21 @@ body {
   font-size: 16px;
   color: black; }
 
+.news-content {
+  max-width: 1500px;
+  margin: 0px auto;
+  padding: 0px 70px; }
+  .news-content .news-container-background {
+    width: 100%;
+    padding: 0px; }
+    .news-content .news-container-background .news-background-black {
+      background: black;
+      position: absolute;
+      left: 0;
+      top: 135px;
+      height: 380px;
+      width: 100%; }
+
 .news-container {
   overflow: hidden;
   width: 75%;
@@ -18,19 +33,21 @@ body {
   .news-container h1 {
     font-weight: 500;
     font-size: 30px;
+    color: white;
     margin-top: 100px;
-    margin-bottom: 50px; }
+    margin-bottom: 100px;
+    position: relative; }
   .news-container .row {
     margin: auto; }
   .news-container .img-container {
-    height: 300px; }
+    width: 95%; }
   .news-container .news-image {
-    height: 100%;
-    width: auto; }
+    height: auto;
+    width: 100%; }
   .news-container .news-titre {
     font-size: 34px;
     font-weight: 700;
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
   .news-container .news-date {
     font-weight: 500;
     font-size: 16px; }

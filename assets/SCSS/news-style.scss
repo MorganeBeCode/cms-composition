@@ -5,7 +5,28 @@ body {
     weight: 100;
     size: 16px;
   }
+
   color: black;
+}
+
+.news-content {
+  max-width: 1500px;
+  margin: 0px auto;
+  padding: 0px 70px;
+
+  .news-container-background {
+    width: 100%;
+    padding: 0px;
+
+    .news-background-black {
+      background: black;
+      position: absolute;
+      left: 0;
+      top: 135px;
+      height: 380px;
+      width: 100%;
+    }
+  }
 }
 
 .news-container {
@@ -17,17 +38,21 @@ body {
     text-decoration: none;
     cursor: pointer;
     color: black;
+
     h3:hover {
       text-decoration: underline;
     }
   }
+
   h1 {
     font: {
       weight: 500;
       size: 30px;
     }
+    color: white;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    position: relative;
   }
 
   .row {
@@ -35,12 +60,12 @@ body {
   }
 
   .img-container {
-    height: 300px;
+    width: 95%;
   }
 
   .news-image {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
   }
 
   .news-titre {
@@ -48,7 +73,8 @@ body {
       size: 34px;
       weight: 700;
     }
-    margin-bottom: 30px;
+
+    margin-bottom: 20px;
   }
 
   .news-date {
@@ -57,4 +83,9 @@ body {
       size: 16px;
     }
   }
+}
+
+/// responsive
+
+@media screen and (max-width: 1270px) {
 }
