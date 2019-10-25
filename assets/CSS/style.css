@@ -60,7 +60,13 @@ Version: 1.0
   .header .custom-menu-class {
     display: flex;
     justify-content: space-between;
-    color: white; }
+    color: white;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    min-height: 100%;
+    text-transform: uppercase;
+    text-align: right; }
     .header .custom-menu-class a {
       color: white;
       font-weight: bolder; }
@@ -72,40 +78,22 @@ Version: 1.0
     .header .custom-menu-class .logo-icon {
       width: 80%;
       height: auto; }
-    .header .custom-menu-class .wishlist {
-      background-color: white;
-      color: black;
-      padding: 10px 10px 10px 20px; }
-      .header .custom-menu-class .wishlist .wishlist-txt {
-        text-align: center;
-        align-self: center;
-        font-size: 14px;
-        font-weight: bold; }
-      .header .custom-menu-class .wishlist .bullet-icon {
-        width: 15px;
-        margin-left: 15px; }
-    .header .custom-menu-class .custom-menu-class {
-      display: flex;
-      align-items: center;
-      font-size: 12px;
-      font-weight: bold;
-      min-height: 100%;
-      text-transform: uppercase;
-      text-align: right; }
-      .header .custom-menu-class .custom-menu-class .menu {
-        width: 100%;
-        margin: -5px;
-        padding: 0; }
-        .header .custom-menu-class .custom-menu-class .menu .home a {
-          border-bottom: 5px solid white;
-          padding-bottom: 5px; }
-          .header .custom-menu-class .custom-menu-class .menu .home a img {
-            margin-bottom: 5px;
-            padding-bottom: 3px; }
-        .header .custom-menu-class .custom-menu-class .menu a:hover {
-          text-decoration: none; }
+    .header .custom-menu-class .menu {
+      width: 100%;
+      margin: -5px;
+      padding: 0; }
+      .header .custom-menu-class .menu .home a {
+        border-bottom: 5px solid white;
+        padding-bottom: 5px; }
+        .header .custom-menu-class .menu .home a img {
+          margin-bottom: 5px;
+          padding-bottom: 3px; }
+      .header .custom-menu-class .menu .home a:hover {
+        text-decoration: none; }
   .header .extra-menu-class {
     display: flex;
+    justify-content: space-between;
+    color: black;
     align-items: center;
     font-size: 12px;
     font-weight: bold;
@@ -113,7 +101,16 @@ Version: 1.0
     text-transform: uppercase;
     text-align: right; }
     .header .extra-menu-class a {
-      color: black; }
+      color: black;
+      font-weight: bolder; }
+    .header .extra-menu-class li {
+      display: inline;
+      list-style-type: none;
+      text-align: center;
+      margin-right: 3%; }
+    .header .extra-menu-class .logo-icon {
+      width: 80%;
+      height: auto; }
     .header .extra-menu-class .menu {
       width: 100%;
       margin: -5px;
@@ -124,8 +121,20 @@ Version: 1.0
         .header .extra-menu-class .menu .home a img {
           margin-bottom: 5px;
           padding-bottom: 3px; }
-      .header .extra-menu-class .menu a:hover {
+      .header .extra-menu-class .menu .home a:hover {
         text-decoration: none; }
+  .header .wishlist {
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 20px; }
+    .header .wishlist .wishlist-txt {
+      text-align: center;
+      align-self: center;
+      font-size: 14px;
+      font-weight: bold; }
+    .header .wishlist .bullet-icon {
+      width: 15px;
+      margin-left: 15px; }
 
 /*************FOOTER STYLE **************/
 #footer {
