@@ -7,6 +7,7 @@
 - Bootsrap en combinaison avec wordpress (pour le responsive, notamment)
 - Git et les merges 
 - La media library de wordpress
+- Le php (en tout cas le php dans Wordpress)
 
 
 |    | PHP & CSS | Custom fields | Responsive |
