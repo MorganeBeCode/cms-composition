@@ -41,7 +41,7 @@
 ### Contact :
 - Formulaire de contact
 - Map
-- Heures d'ouverture, coordonnées, etc.
+- Heures d'ouverture, coordonnées, etc. (ne s'affiche que sur la page contact pour une raison inconnue)
 - Bandeau discount
 
 ### Blog (News) :
