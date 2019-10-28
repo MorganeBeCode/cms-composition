@@ -3,7 +3,7 @@
 
 [Instructions](https://github.com/becodeorg/LIE-Jepsen-2.14/tree/master/02-the-hill/03-wordpress/projet)
 
-La team : [Wolf](https://github.com/rflowturing), [Surya](https://github.com/SuryaHendricks), [Yousef](https://github.com/yousefalsatouf) et [Morgane] (https://github.com/MorganeBeCode)
+La team : [Wolf](https://github.com/rflowturing), [Surya](https://github.com/SuryaHendricks), [Yousef](https://github.com/yousefalsatouf) et [Morgane](https://github.com/MorganeBeCode)
 
 #### Difficultés majeures rencontrées : 
 - Bootsrap en combinaison avec wordpress (pour le responsive, notamment)
