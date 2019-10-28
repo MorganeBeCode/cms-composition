@@ -3,7 +3,10 @@
 
 [Instructions](https://github.com/becodeorg/LIE-Jepsen-2.14/tree/master/02-the-hill/03-wordpress/projet)
 
-#### Difficultés majeures rencontrées :
+#### Difficultés majeures rencontrées : 
+- Bootsrap en combinaison avec wordpress (pour le responsive, notamment)
+- Git et les merges 
+- La media library de wordpress
 
 
 |    | PHP & CSS | Custom fields | Responsive |
@@ -32,6 +35,7 @@
 
 ### A propos :
 - Récupération du code de la page architecte
+- Pas responsif
 
 ### Contact :
 - Formulaire de contact
